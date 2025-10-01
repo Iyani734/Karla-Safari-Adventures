@@ -14,7 +14,7 @@ const eastAfricaTours = [
     reviews: null,
     description: "Dreaming of a unique African adventure? Let our experts craft a personalized safari tailored to your interests, budget, and travel style. From specific wildlife encounters to unique cultural experiences, we'll design your perfect journey.",
     image: 'Tailor-made safari planning session with maps and notes in a cozy setting',
-    tags: ['custom', 'tailor-made', 'personalized', 'luxury', 'adventure'],
+    tags: ['custom', 'tailor-made', 'personalized','adventure'],
     isCustom: true,
     link: 'background_Amboseli.jpeg'
   },
@@ -491,9 +491,234 @@ const eastAfricaTours = [
     reviews: 2839,
     description: "Embark on a once-in-a-lifetime safari from Zanzibar to Serengeti, Ngorongoro, and Tarangire—witness the Great Migration, Big Five, and breathtaking landscapes while enjoying luxury camps, expert guides, and unforgettable wildlife encounters.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
-    tags: ['Tanzania', 'Luxury Plus', 'solo'],
+    tags: ['Tanzania', 'Luxury', 'solo'],
     link: '/kruger3.jpg'
   //hhttps://www.safaribookings.com/day/t95089
+  },
+  {
+    id: '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro',
+    title: '4-Day Luxury Tanzania Safari',
+    location: 'Tanzania',
+    subLocation: 'Arusha,Serengeti National Park,Ngorongoro Crater,Tarangire National Park',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 2949,//1650
+    rating: 4.9,
+    reviews: 1489,
+    description: "Discover Tanzania’s wild beauty on a 4-day safari from Arusha—explore Tarangire’s elephants, Serengeti’s endless plains, and Ngorongoro’s breathtaking crater. Luxury stays, thrilling game drives, and unforgettable wildlife moments await.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'Luxury', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t59012
+  },
+   {
+    id: '4-day-luxury-samburu-olpejata',
+    title: '4-Day Luxury Samburu NR and Ol Pejeta Conservancy',
+    location: 'Kenya',
+    subLocation: 'Nairobi,Ol Pejeta Conservancy,Buffalo Spring National reserve',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 2580,//1782
+    rating: 4.9,
+    reviews: 1865,
+    description: "Embark on a 4-day Kenyan safari from Nairobi to Ol Pejeta and Samburu, where rhinos, elephants, and big cats roam. Experience unique wildlife, cultural encounters, and unforgettable landscapes in luxury comfort",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'Luxury', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t82177
+  },
+     {
+    id: '3-day-tarangire-manyara-ngorongoro-crater',
+    title: '3-Day Tarangire Manyara & Ngorongoro Crater',
+    location: 'Tanzania',
+    subLocation: 'Tarangire National Park,Ngorongoro Crater,Lake Manyara,Arusha',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1800,//1000
+    rating: 5,
+    reviews: 2358,
+    description: "Experience Tanzania’s wild beauty in just 3 days—encounter elephants in Tarangire, the Big Five in Ngorongoro Crater, and tree-climbing lions in Lake Manyara, with comfort and breathtaking landscapes throughout",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'mid-range', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t87289
+  },
+       {
+    id: '4-day-lodging-tarangire-ngorngoro-materuni',
+    title: '4-Day Lodging to Tarangire, Ngorongoro & Materuni',
+    location: 'Tanzania',
+    subLocation: 'Tarangire National Park,Ngorongoro Crater,Materuni Waterfalls',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1999,//1097
+    rating: 4.7,
+    reviews: 1893,
+    description: "Embark on a 4-day Tanzania adventure—immerse in Arusha’s culture, witness Tarangire’s giant elephants, marvel at Ngorongoro’s breathtaking wildlife, and hike Materuni Waterfalls. Unforgettable experiences, vibrant traditions, and scenic beauty await",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'mid-range', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/day/t86341
+  },
+   {
+    id: '4-day-astonish-mikumi-ruaha-national-park',
+    title: '4-Day Astonish Mikumi NP and Ruaha National Park',
+    location: 'Tanzania',
+    subLocation: 'Dar Es Salam, Mikumi National Park, Ruaha National Park,',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1449,//740
+    rating: 4.8,
+    reviews: 1174,
+    description: "Embark on a thrilling 4-day Tanzania safari—ride the SGR to Mikumi, explore Ruaha’s vast wilderness, encounter lions, elephants, wild dogs, and rare antelopes. Remote, authentic, and unforgettable African adventure awaits.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'mid-range', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t79765
+  },
+     {
+    id: '4-day-amboseli-tsavo-east-west',
+    title: '4-Day Amboseli, Tsavo East and West Safari',
+    location: 'Kenya',
+    subLocation: 'Amboseli National Park,Tsavo West National Park,Tsavo east National Park',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1890,//1155
+    rating: 5,
+    reviews: 2383,
+    description: "Embark on a 4-day Kenyan safari from Nairobi to Amboseli and Tsavo, where Kilimanjaro views, majestic elephants, legendary lions, and breathtaking landscapes create unforgettable adventures across East Africa’s most iconic parks",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'mid-range', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t73013
+  },
+    {
+    id: '3-day-amboseli-tsavo-east-mombasa',
+    title: '3-Day Amboseli -Tsavo East -Mombasa Safari',
+    location: 'Kenya',
+    subLocation: 'Amboseli National Park,Tsavo West National Park,Tsavo east National Park',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1149,//708
+    rating: 4.8,
+    reviews: 3529,
+    description: "Discover Kenya’s magic on a 3-day safari from Nairobi to Amboseli and Tsavo East, then unwind in Mombasa or Diani—majestic elephants, stunning Kilimanjaro views, and a perfect beach escape await",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t27016
+  },
+    {
+    id: '3-day-samburu-wildernes-adventure',
+    title: '3-Day Samburu Wildernes Adventure',
+    location: 'Kenya',
+    subLocation: 'Samburu National Park',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1220,//840
+    rating: 4.9,
+    reviews: 2379,
+    description: "Venture into Samburu’s wild beauty, where rare species, majestic elephants, and rich Samburu culture await. Experience thrilling game drives, breathtaking landscapes, and unforgettable encounters on this authentic Northern Kenya safari adventure.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t73017
+  },
+  {
+    id: '3-day-mount-kenya-trek-sirimon-to-chogoria',
+    title: '3-Day Mount Kenya Trek Sirimon to Chogoria',
+    location: 'Kenya',
+    subLocation: 'Nairobi, Mt Kenya',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 989,//640
+    rating: 4.8,
+    reviews: 1280,
+    description: "Conquer Mount Kenya on an unforgettable trek! Journey through forests, moorlands, and valleys to reach Point Lenana’s sunrise summit, descending via Chogoria’s waterfalls. Adventure, breathtaking views, and memories of a lifetime await.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/day/t97133
+  },
+    {
+    id: '3-day-the-amboseli-budget-safari',
+    title: '3-Day The Amboseli Budget Safari',
+    location: 'Kenya',
+    subLocation: 'Nairobi, Amboseli National Park',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1111,//857
+    rating: 5,
+    reviews: 2139,
+    description: "Discover Amboseli’s breathtaking beauty with herds of elephants set against Mount Kilimanjaro. Enjoy thrilling game drives, diverse wildlife, and unforgettable landscapes, creating a truly iconic African safari adventure",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t46091
+  },
+      {
+    id: '3-day-tsavo-east-taita-safari-sentrim-salt-lick',
+    title: '3-Day Tsavo East & Taita Safari (Sentrim & Salt Lick)',
+    location: 'Kenya',
+    subLocation: 'Nairobi, Tsavo National Park,Taita Hills Wildlife Sanctuary, Mombasa Beaches ',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1229,//762
+    rating: 4.6,
+    reviews: 3249,
+    description: "Discover Tsavo’s red-earth savannahs and diverse wildlife, then experience the iconic Salt Lick Lodge. Thrilling game drives, breathtaking landscapes, and unforgettable encounters make this safari the perfect blend of adventure and comfort.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t56617
+  },
+   {
+    id: '4-day-nairobi-amboseli-tsavo-east-mombasa-diani-watamu',
+    title: '4-Day Nairobi-Amboseli-Tsavo East-Mombasa, Diani/Watamu',
+    location: 'Kenya',
+    subLocation: 'Nairobi, Tsavo National Park,Amboseli National Park, Mombasa Beaches ',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1299,//962
+    rating: 4.8,
+    reviews: 2786,
+    description: "Discover Amboseli’s majestic elephants and Mount Kilimanjaro views, explore Tsavo East’s red-soil wilderness, and end your adventure on Mombasa’s sandy beaches. A perfect blend of wildlife, landscapes, and relaxation awaits you.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t10777
+  },
+     {
+    id: '4-day-mikumi-nyerere-unforgettable-adventures',
+    title: '4-Day Mikumi NP & Nyerere NP Unforgettable Adventures',
+    location: 'Tanzania',
+    subLocation: 'Dar Es Salaam, Mikumi National Park, Nyerere National Park',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1330,//990
+    rating: 4.9,
+    reviews: 3217,
+    description: "Discover Tanzania’s wild side with thrilling game drives in Mikumi, a Rufiji River boat safari in Selous, and a guided walking adventure. Wildlife, landscapes, and unforgettable experiences await you.",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t61887
+  },
+       {
+    id: '3-day-budget-safari-tarangire-ngorongoro-manyara',
+    title: '3-Day Budget Safari Tarangire/Ngorongoro Crater/Manyara',
+    location: 'Tanzania',
+    subLocation: 'Arusha',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1249,//920
+    rating: 5,
+    reviews: 3893,
+    description: "Embark on a breathtaking Tanzanian safari through Tarangire, Ngorongoro Crater, and Lake Manyara. Encounter elephants, lions, flamingos, and the Big Five while exploring Africa’s most iconic landscapes in comfort and style",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t88209
+  },
+    {
+    id: '4-day-safari-to-ruaha-national-park-tanzania',
+    title: '4-Day Safari to Ruaha National Park Tanzania',
+    location: 'Tanzania',
+    subLocation: 'Iringa,Ruaha National Park',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1056,//743
+    rating: 4.5,
+    reviews: 2678,
+    description: "Experience Tanzania’s Ruaha National Park with thrilling game drives, walking safaris along the Great Ruaha River, and close encounters with elephants, lions, giraffes, and diverse wildlife in stunning natural landscapes",
+    image: 'Murchison Falls cascading down the Nile River in Uganda',
+    tags: ['Tanzania', 'budget', 'solo'],
+    link: '/kruger3.jpg'
+  //https://www.safaribookings.com/tours/t32589
   },
 ];
 

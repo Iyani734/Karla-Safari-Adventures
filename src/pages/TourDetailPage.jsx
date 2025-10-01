@@ -5279,7 +5279,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "The contents of this tour can be changed."
         },
         {
@@ -5421,7 +5421,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "The contents of this tour can be changed."
         },
         {
@@ -5570,7 +5570,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "The contents of this tour can be changed."
         },
         {
@@ -5719,7 +5719,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "The contents of this tour can be changed."
         },
         {
@@ -5879,7 +5879,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "You can request minor changes to the accommodations and destinations of this tour."
         },
         {
@@ -6026,7 +6026,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "You can request minor changes to the accommodations and destinations of this tour."
         },
         {
@@ -6176,7 +6176,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "You can request minor changes to the accommodations and destinations of this tour."
         },
         {
@@ -6325,7 +6325,7 @@ whatToExpect:[
         },
         {
           icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
-          title: "Cannot be customized",
+          title: "Can be customized",
           description: "You can request minor changes to the accommodations and destinations of this tour."
         },
         {
@@ -6469,6 +6469,2275 @@ whatToExpect:[
       { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
     ]
   },
+    {
+    id: '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro',
+    title: `4-Day Luxury Tanzania Safari`,
+    location: 'Tanzania',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 2549,
+    rating: 5,
+    reviews: 1489,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 2549,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `You'll embark on a lavish 4-day safari adventure, immersing yourself in the wonders of the Northern Safari Circuit. The lodgings you'll enjoy rank among Tanzania's finest, promising a truly luxurious experience. You'll encounter awe-inspiring wildlife amidst a backdrop of diverse landscapes—observe playful monkeys in the lush forest, spot lions perched in trees, witness majestic elephants traversing the bush and marvel at a myriad of animals thriving within the confines of a collapsed volcano.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Luxury tour",
+          description: "This luxury tour uses lodges and tented camps."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for single travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 2 years",
+          description: "The minimum age for this tour is 2 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Arusha",
+      startAirport: " Kilimanjaro Airport (JRO)",
+      endLocation: "Arusha", 
+      endAirport: " DArusha Airport (ARK ",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Arusha to Tarangire National Park', mainDestination: 'Tarangire National Park', nights: '1', hotel: `Ngorongoro Marera Mountain View Lodge`, activity: `Our driver buddy will swing by your hotel, and off you'll go to Tarangire for a fun game drive with a packed lunch. This place is a hotspot for lots of elephants, cool cat families, various birds, and those funky baobab trees. Plus, it's like a haven for animals because of the Tarangire River.
+
+After the day's adventures, dinner, and a cozy sleep await you at Ngorongoro Marera Mountain View. Sweet dreams under the stars!`, image: 'Maasai Mara' },
+{ day: 2, location: 'Karatu to Serengeti National Park', mainDestination: 'Serengeti National Park', nights: '1', hotel: `Into Wild Africa Luxury Safari Camp Serengeti`, activity: `After breakfast, you'll drive towards Serengeti National Park, passing through the pretty farmlands of Karatu and the Ngorongoro Conservation Area. Leaving the highlands, you'll enter the heart of wild Africa —Serengeti National Park, with its vast plains stretching endlessly.
+
+Your destination is the central Seronera area, a super-rich wildlife spot in the park. It's got the Seronera River, a key watering hole that attracts lots of Serengeti species. You'll get there in time for lunch and then dive into an afternoon game drive. Dinner and a night's rest await you at Into Wild Camp. Get ready for some wild dreams!`, image: 'Maasai Mara' },
+{ day: 3, location: 'Serengeti to Ngorongoro Crater', mainDestination: 'Serengeti National Park', nights: '1', hotel: `Ngorongoro Marera Mountain View Lodge`, activity: `You will grab your breakfast at about 6:00 am, and then it's time for a morning game drive in the Serengeti with a packed lunch. Get ready for a wildlife feast— lions, wildebeests, leopards, impalas, elephants, crocs, zebras, and more!
+
+As the afternoon rolls in, you will hit the road to Ngorongoro, enjoying a cool game drive along the way for about 3 hours. When you reach, you will check into Marera Mountain View. Dinner and your night's rest are all set up.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Ngorongoro Crater to Arusha', mainDestination: 'Ngorongoro Crater', nights: '', hotel: ``, activity: `You will enjoy a filling breakfast at the lodge, and then gear up for an exciting game drive with your packed lunch. Early in the morning, you will take a descent to the crater floor for a 5 to 6-hour game drive. You will get ready for the fantastic sight of a pride of lions, massive elephants, herds of wildebeests and zebras, rhinos, and more.
+
+As the afternoon rolls in, you will bid farewell to the park and embark on the journey back to Arusha. It's been a wild adventure, and now it's time to head home.`, image: 'Maasai Mara' },
+
+ ],
+whatToExpect:[
+  "Begin your adventure with a scenic drive from Arusha to Tarangire National Park, famous for its giant elephant herds, ancient baobab trees, and rich wildlife along the Tarangire River.",  
+  "Journey through the Ngorongoro highlands into the legendary Serengeti, where endless plains, the Seronera River, and diverse wildlife await with unforgettable game drives.",  
+  "Enjoy thrilling morning and afternoon game drives in the Serengeti, spotting lions, leopards, elephants, wildebeests, zebras, and more before heading towards Ngorongoro.",  
+  "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site often called Africa’s Eden, home to black rhinos, lions, flamingos, and over 25,000 animals in one place.",  
+  "Conclude your safari with a return to Arusha, carrying memories of Africa’s breathtaking landscapes, incredible wildlife encounters, and magical nights under the stars."  
+],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '4-day-luxury-samburu-olpejata',
+    title: `4-Day Luxury Samburu NR and Ol Pejeta Conservancy`,
+    location: 'Kenya',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 2580,
+    rating: 4.7,
+    reviews: 2934,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 2934,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `This is the most unique and the least crowded game reserve situated on the Kenyan Northern Frontier. You will have a chance to explore Ol Pejeta Game Sanctuary, which is situated in the Laikipia area and h/s home to the Big Five. You'll experience the true magic of Kenya at the Samburu Game Reserve, which is a rugged and semi-desert park with a backdrop of jagged mountains and a host to the endangered Grevy’s zebra, the rare beisa oryx, and the blue-shanked Somali ostrich.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Luxury tour",
+          description: "This luxury tour uses lodges and tented camps."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 2 years",
+          description: "The minimum age for this tour is 2 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: "Jomo Kenyatta Airport (NBO)",
+      endLocation: "Nairobi", 
+      endAirport: "Jomo Kenyatta Airport (NBO)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi/Ol Pejeta Game Sanctuary', mainDestination: 'Ol Pejeta Conservancy (Laikipia Plateau)', nights: '1', hotel: `Sweetwaters Serena Camp`, activity: `Pick up this morning will either be from the airport or your Nairobi accommodation. You'll then depart for your safari, driving through the main farming areas of Kenya with pineapple, coffee, and fruit trees, and fresh produce. You will have a stopover at the open-air Karatina market, which is the biggest farm produce market in the region. You will arrive in time for lunch at Sweet Waters Serena Camp. Later, you will proceed on a game drive where you will have a chance of seeing both white and black rhino, elephant, spotted hyena, lion, cheetah, black-backed jackal, the bat-eared fox, the elusive leopard, hippo, Grevy’s zebra, Jackson’s hartebeest, among other wild. You will also visit the Chimp Sanctuary, which provides refuge to orphaned and abused chimpanzees. You'll return to the Sweet Waters Serena Camp to wait for dinner. An optional night game drive is offered here, together with other camp clients using the camp vehicle. Your overnight stay is at Sweet Waters Serena Camp.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Ol Pejeta Game Sanctuary/Samburu Buffalo Springs Game Reserve', mainDestination: 'Buffalo Springs National Reserve', nights: '1', hotel: `Ashnil Samburu Camp`, activity: `You'll have an early morning game drive at Ol Pejeta Game Sanctuary, followed by breakfast, then depart for Isiolo and continue with your safari to Samburu Buffalo Springs Game Reserve. It offers dramatic scenery and is fed by the Ewaso Nyiro River. Lunch will be served at Ashnil Samburu Camp. You will then have an evening game drive or choose to rest and enjoy the hotel amenities.
+Dinner and your overnight stay are at Ashnil Samburu Camp.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Samburu Buffalo Springs Game Reserve', mainDestination: 'Buffalo Springs National Reserve', nights: '1', hotel: `Ashnil Samburu Camp`, activity: `After the morning breakfast, you will spend the whole day exploring Buffalo Springs Game Reserve with chances of seeing the rare long-necked gerenuk, elephants, buffaloes, the rare Grevy's, elands, lion, cheetah, leopard, not forgetting different species of birds. You shall then break for lunch and late on continue late in the evening.
+Optional visit to the Samburu cultural village. Dinner and your overnight stay are at Ashnil Samburu.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Samburu Buffalo Springs Game Reserve to Nairobi', mainDestination: 'Nairobi (City)', nights: '1', hotel: ``, activity: `You'll enjoy an early morning game drive followed by breakfast. Later, you'll depart from Samburu with an optional visit to the Samburu cultural village en route. You'll proceed to Nanyuki, where you will have a stopover at the equator for a photo and demonstration of how water spins North and South of the Equator. You will arrive in Nairobi in time to be dropped off either at your Nairobi accommodation or the airport for your onward journey connections.`, image: 'Maasai Mara' },
+ ],
+whatToExpect:[
+    "Start your journey from Nairobi with a scenic drive through Kenya’s fertile highlands, stopping at the bustling Karatina market before arriving at Ol Pejeta Conservancy.",  
+  "Explore Ol Pejeta, home to black and white rhinos, lions, elephants, and the famous Chimpanzee Sanctuary, with options for exciting night game drives.",  
+  "Continue to Samburu Buffalo Springs, where dramatic landscapes and the Ewaso Nyiro River attract unique wildlife including Grevy’s zebra, gerenuk, and elephants.",  
+  "Spend a full day in Samburu on thrilling game drives, with opportunities to spot lions, leopards, cheetahs, and diverse birdlife, plus an optional cultural visit to the Samburu village.",  
+  "Conclude your adventure with a return to Nairobi, including a stop at the Equator in Nanyuki for a photo opportunity and unique demonstration."  
+],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+    {
+    id: '3-Day Tarangire Manyara & Ngorongoro Crater',
+    title: `3-Day Tarangire Manyara & Ngorongoro Crater`,
+    location: 'Tanzania',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1800,
+    rating: 5,
+    reviews: 2358,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 2358,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Go on a 3-day, 2-night safari in Tanzania and explore the stunning Tarangire, Ngorongoro Crater, and Lake Manyara. Enjoy a private tour with an expert guide in a comfortable safari Jeep that has sockets and a fridge. Throughout your trip, unlimited water will be provided, making sure you stay refreshed and enjoy the beauty of Tanzania’s natural wonders.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Mid-range tour",
+          description: "This mid-range tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 5 years",
+          description: "The minimum age for this tour is 5 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Arusha",
+      startAirport: "Kilimanjaro Airport (JRO)",
+      endLocation: "Arusha", 
+      endAirport: "Arusha Airport (ARK)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Arusha/JRO Airport – Tarangire', mainDestination: 'Tarangire National Park', nights: '1', hotel: `Hhando Coffee Lodge`, activity: `Upon arrival at Arusha/JRO Airport, our tour guide will greet you and have your lunch box ready. We will then drive to Tarangire National Park, where we’ll check in at the park gate and start the game drive. Keep an eye out for herds of elephants and the iconic baobab trees. After the game drive, we’ll take you to your lodge for dinner and an overnight stay.
+
+Tarangire is known for its large elephant herds and stunning baobab trees. While exploring, you'll have the chance to see a variety of wildlife, such as zebras, impalas, lions, cheetahs, and leopards, all in their natural environment.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Karatu – Ngorongoro Crater', mainDestination: 'Ngorongoro Crater', nights: '1', hotel: `Marera Valley Lodge`, activity: `After breakfast, we’ll begin our scenic journey to Ngorongoro Crater for a game drive. We’ll descend into the crater to see the Big Five and other fascinating wildlife. After the game drive, we’ll return to Karatu for your overnight stay.
+
+Ngorongoro Crater, often referred to as "Africa's Garden of Eden", is a remarkable natural wonder located in northern Tanzania. The huge crater was formed over 2.5 million years ago when a large volcano, about the size of Mount Kilimanjaro, erupted and collapsed.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Lake Manyara – Arusha/JRO Airport', mainDestination: 'Lake Manyara National Park', nights: '', hotel: ``, activity: `After breakfast, we’ll drive to Lake Manyara National Park for a game drive. Keep an eye out for the famous tree-climbing lions, large herds of elephants, and vibrant birdlife around the lake. After the game drive, we’ll head to Arusha/JRO Airport, marking the end of your safari.
+
+Lake Manyara is a shallow, alkaline lake in northern Tanzania, known for its beautiful scenery and wide variety of wildlife. It’s part of Lake Manyara National Park, which includes lush forests, open grasslands, and hot springs. The lake is famous for its large flamingo flocks and tree-climbing lions, and its size changes depending on seasonal rainfall.`, image: 'Maasai Mara' },
+
+ ],
+whatToExpect:[
+  "Begin your adventure in Tarangire National Park, famous for its massive elephant herds, ancient baobab trees, and rich variety of wildlife including lions, leopards, zebras, and giraffes.",  
+  "Descend into the Ngorongoro Crater, Africa’s Garden of Eden, to witness the Big Five, flamingos, hippos, and one of the world’s densest concentrations of wildlife.",  
+  "Conclude your safari at Lake Manyara National Park, where tree-climbing lions, large elephant families, vibrant birdlife, and stunning landscapes create a perfect ending to your journey.",  
+  "Enjoy comfortable lodge stays with hearty meals after each day of thrilling game drives, combining relaxation with authentic safari experiences.",  
+  "End your trip back in Arusha/JRO with unforgettable memories of Tanzania’s diverse parks and iconic wildlife encounters."   
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+    {
+    id: '4-day-lodging-tarangire-ngorngoro-materuni',
+    title: `4-Day Lodging to Tarangire, Ngorongoro & Materuni`,
+    location: 'Tanzania',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1999,
+    rating: 4.7,
+    reviews: 1893,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1999,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Get ready for the adventure of a lifetime! Witness the mighty elephants of Tarangire roaming beneath ancient baobabs, descend into the breathtaking Ngorongoro Crater—an Eden of wildlife and a UNESCO World Heritage site—and cap off your journey with a refreshing hike to the spectacular Materuni Waterfalls. This unforgettable safari blends raw nature, rich wildlife, and scenic beauty into an experience you’ll treasure forever.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Mid-range tour",
+          description: "This mid-range tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 1 years",
+          description: "The minimum age for this tour is 1 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives and nature hikes/walks",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Arusha",
+      startAirport: "Kilimanjaro Airport (JRO)",
+      endLocation: "Arusha", 
+      endAirport: "Arusha Airport (ARK)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Airport Pickup & Arusha City Tour', mainDestination: 'Arusha (City)', nights: '1', hotel: `Tulia Boutique Hotel & Spa`, activity: `You'll start your adventure with a warm airport pickup, where our friendly guide will greet you and take you to your hotel to settle in and refresh. Once you’re ready, immerse yourself in the vibrant energy of Arusha with a guided city tour. You'll wander through the bustling local markets, alive with color, sounds, and the rich aroma of Tanzanian street food. You'll stop by the Maasai Cultural Museum, where you’ll gain insight into the history and traditions of one of Tanzania’s most iconic people. As you stroll through the lively streets, take in local art, handmade crafts, and the vibrant culture that defines Arusha. Don't miss the chance to sample mouthwatering traditional Tanzanian dishes, offering a taste of the region’s unique flavors. You'll browse local shops for souvenirs that reflect the spirit of this fascinating country. After a day of exploration, you'll enjoy dinner at a local restaurant, perfect for unwinding and gearing up for the exciting adventure ahead.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Tarangire National Park', mainDestination: 'Tarangire National Park', nights: '1', hotel: `Bougainvillea Safari Lodge`, activity: `We’ll pick you up from your hotel at 7:30 am for an unforgettable day! After meeting your guide, you’ll be driven 2 hours to Tarangire National Park, famous for its stunning landscapes, ancient baobab trees, and the largest elephant population in Tanzania. Get ready for an exciting game drive to track predators like lions, cheetahs, and leopards, while also spotting giraffes, wildebeests, and zebras.
+
+At midday, you’ll stop at the Tarangire River picnic site for a delicious lunch, offering breathtaking views of the river and wildlife. Watch out for cheeky monkeys and baboons, who might try to steal your lunch—but they’re harmless! After lunch, you’ll continue the game drive and explore more of the park’s beauty. You’ll exit the park around 5:30 pm and head to your accommodation to unwind after a day of adventure.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Ngorongoro Crater', mainDestination: 'Ngorongoro Crater', nights: '1', hotel: `Tulia Boutique Hotel & Spa`, activity: `The Ngorongoro Crater is one of Tanzania’s top wildlife destinations, offering stunning landscapes and incredible wildlife sightings. After an early breakfast at 6:00 am, you’ll head to the Ngorongoro viewpoint, where the breathtaking views will leave you speechless. You’ll then descend into the crater, on the lookout for the elusive black rhinos. Though harder to spot, rhinos aren’t the only highlight—due to the crater’s unique landscape, many animals are easily visible, making for a truly magical experience.
+
+The Ngorongoro Crater is a self-sustaining haven for wildlife, so animals don’t need to migrate. Its stunning scenery and abundance of animals make it a must-see destination. After a delicious lunch, you’ll continue your game drive, exploring more of the crater before ascending back to the rim and transferring to your accommodation in Arusha. It’s a day filled with unforgettable wildlife moments and natural beauty!`, image: 'Maasai Mara' },
+{ day: 4, location: 'Materuni Waterfalls & Airport Drop-Off', mainDestination: 'Materuni Waterfalls (Highlight)', nights: '', hotel: ``, activity: `We’ll take you on a scenic hike to the breathtaking Materuni Waterfalls, nestled in the lush foothills of Mount Kilimanjaro. As you trek through vibrant forests, you'll be immersed in nature’s beauty, with the sound of flowing water guiding you to the towering waterfall. Along the way, you'll enjoy a fascinating coffee tour where you'll learn about local coffee production, from bean to cup. Afterward, you'll savor a delicious lunch of traditional local cuisine, offering a true taste of the region. Relax, snap photos, and soak in the tranquil atmosphere before you head back.
+
+Afterward, we’ll transfer you to the airport for your drop-off, ensuring you have plenty of time for your departure. Reflect on the incredible experiences and wildlife you’ve encountered as you head home— a perfect end to an unforgettable adventure in Tanzania!`, image: 'Maasai Mara' },
+ ],
+whatToExpect:[
+ "Begin your journey in Arusha with a guided city tour, exploring vibrant markets, local art, and the Maasai Cultural Museum before relaxing at your boutique hotel.",  
+  "Discover Tarangire National Park, home to Tanzania’s largest elephant herds, majestic baobab trees, and diverse wildlife including lions, leopards, giraffes, zebras, and wildebeests.",  
+  "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site, to witness the Big Five, flamingos, hippos, and one of Africa’s most concentrated wildlife habitats.",  
+  "Hike to the stunning Materuni Waterfalls at the base of Mount Kilimanjaro and enjoy a traditional coffee tour for an authentic cultural experience.",  
+  "Conclude your adventure with an airport transfer, carrying unforgettable memories of Tanzania’s wildlife, landscapes, and vibrant culture."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '4-day-astonish-mikumi-ruaha-national-park',
+    title: `4-Day Astonish Mikumi NP and Ruaha National Park`,
+    location: 'Tanzania',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1449,
+    rating: 4.8,
+    reviews: 1174,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1174,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Tanzania's southern circuit's national parks and game reserves are often considered hidden treasures of authentic African wilderness. These expansive parks boast some of the highest concentrations of wildlife found anywhere on the continent and feature a remarkable diversity of animals. Among them are roan antelopes, lions, sable antelopes, large herds of elephants, African wild dogs (also known as Cape hunting dogs) and a wide variety of colorful bird species.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Mid-range tour",
+          description: "This mid-range tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 6 years",
+          description: "The minimum age for this tour is 6 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Dar Es Salaam",
+      startAirport: "Julius Nyerere Airport (DAR)",
+      endLocation: "Dar Es Salaam", 
+      endAirport: "Julius Nyerere Airport (DAR)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Dar es Salaam to Mikumi National Park', mainDestination: 'Mikumi National Park', nights: '1', hotel: `Camp Lilac`, activity: `We will pick you up from your hotel or the ferry and drive you to the SGR station for your train to the Morogoro region, which will take approximately 1.5 hours. Upon arrival, our driver-guide will take you to Mikumi National Park for a late-morning game drive until lunch. After lunch, you will have time to relax before continuing with an afternoon to evening game drive. Dinner and an overnight stay will be at Camp lilac Mikumi.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Mikumi National Park to Ruaha National Park', mainDestination: 'Ruaha National Park', nights: '1', hotel: `TANAPA Ruaha Bandas`, activity: `You will be picked up from the hotel at 6:30am. After breakfast, you will drive to Ruaha National Park, which will take approximately five hours. Lunch will be provided upon your arrival. You will begin your game drive in the afternoon, which will continue into the evening. The Great Ruaha River, the park's namesake, is essential for supporting its diverse wildlife. Although Ruaha is one of the largest national parks in Tanzania and boasts a rich variety of animals, it is also one of the least crowded destinations, making your safari experience feel remote and exclusive.
+
+Your dinner and overnight stay will be at Tanapa Ruaha Bandas.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Game Drive in Ruaha National Park', mainDestination: 'Ruaha National Park', nights: '1', hotel: `Ruaha Hilltop Lodge`, activity: `On this day, you will leave early at 6:30am for a sunrise game drive, enjoying breakfast in the bush. After the breakfast break, the game drive will continue as you search for wildlife in various locations throughout the park. Be on the lookout for predators such as lions, cheetahs, and large packs of wild dogs, along with numerous other animals, until the lunch break.
+
+You will have a picnic lunch in the park where you can take some time to rest. After lunch, the game drive will resume until the evening. As you drive along the Great Ruaha River, you can expect to see a variety of animals, including buffalo, giraffes, wildebeest, zebras, impalas, warthogs, elephants, hippos, crocodiles, greater and lesser kudu, sable and roan antelopes, as well as different species of birds, plants and reptiles.
+
+After a full day of exploration, you will return to your lodge for dinner and an overnight stay.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Ruaha Hilltop Lodge to Dar es Salaam', mainDestination: 'Dar Es Salaam (City)', nights: '1', hotel: ``, activity: `After breakfast, you will pack your luggage, and we will begin our 6.5-hour drive to Morogoro town for the train. The train departs at either 4:00pm or 7:00pm for Dar es Salaam.
+
+Upon your arrival in Dar es Salaam, we will pick you up and take you to your hotel or the airport for your flight to Zanzibar or back home.`, image: 'Maasai Mara' },
+ ],
+whatToExpect:[
+  "Start your adventure with a scenic SGR train ride from Dar es Salaam to Morogoro, followed by thrilling game drives in Mikumi National Park, spotting elephants, lions, giraffes, and zebras.",  
+  "Explore Ruaha National Park, Tanzania’s largest and most remote wilderness, with its vast landscapes, the Great Ruaha River, and fewer crowds for an exclusive safari experience.",  
+  "Witness diverse wildlife including lions, cheetahs, wild dogs, elephants, hippos, crocodiles, buffalo, and unique antelope species such as sable, roan, and kudu.",  
+  "Enjoy sunrise and full-day game drives with bush breakfasts, picnic lunches, and incredible views of rivers, savannahs, and rolling hills.",  
+  "Conclude your journey with a scenic drive back to Dar es Salaam, where you’ll be transferred to your hotel, airport, or onward flight to Zanzibar."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+    {
+    id: '4-day-amboseli-tsavo-east-west',
+    title: `4-Day Amboseli, Tsavo East and West Safari`,
+    location: 'Kenya',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1890,
+    rating: 5,
+    reviews: 2383,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1890,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `This four-day trip is pure wildlife viewing. It takes us to the incredible Amboseli National Park, home of the largest herds of elephants you will ever see! The tour also includes a night in the expansive Tsavo National Parks and a visit to Mzima Springs, giving you the chance to explore the very best of Kenya.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Mid-range tour",
+          description: "This mid-range tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 1 years",
+          description: "The minimum age for this tour is 1 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: "Jomo Kenyatta Airport (NBO)",
+      endLocation: "Nairobi", 
+      endAirport: "Jomo Kenyatta Airport (NBO)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi to Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Penety Amboseli Resort`, activity: `We will pick you up from either your hotel or the airport. After your safari briefing, we will proceed to Amboseli National Park. Upon arrival at the camp, we will check in and have lunch. In the afternoon, we will depart for a game drive.
+
+Amboseli National Park is situated towards the southeast of Nairobi. Most of the park consists of a dry, ancient lake bed and fragile grassland with patches of acacia woodland, while in the southern area, you will find several small, rocky, volcanic hills. Around the swamps (Ol Okenya, Ol Tukai, and Enkongo Narok), the vegetation is lush with yellow-barked acacias and phoenix palms.
+
+Your dinner and overnight stay are at the camp.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Amboseli National Park to Tsavo West National Park', mainDestination: 'Tsavo West National Park', nights: '1', hotel: `Ngulia Safari Lodge`, activity: `You depart after breakfast for Tsavo West National Park with a game drive. A stop at the famous Mzima Springs is guaranteed. Later, you will head to your lodge and check in for lunch. Relax at your lodge until 16h00, when the driver picks you up and leads you to the afternoon game drive for two hours. Spot the maneless lions in the park. This afternoon, you will also visit the rhinoceros sanctuary.
+
+Return for dinner and your overnight stay.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Tsavo East National Park', mainDestination: 'Tsavo East National Park', nights: '1', hotel: `Voi Safari Lodge`, activity: `After breakfast, you will check out and proceed to Tsavo East National Park with a game drive. You will arrive at your lodge early afternoon for a hot lunch. After relaxation, you will have time to enjoy the serenity at your lodge as you experience the activities offered by the facility.
+
+Later, around 15h00, your tour guide will pick you up and you will embark on another game drive to the Aruba Dam. This park is famous for the man-eaters of Tsavo. Enjoy game drives until late evening before returning to your lodge for dinner and your overnight stay.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Tsavo East National Park to Nairobi', mainDestination: 'Nairobi Airport (Nairobi)', nights: '1', hotel: ``, activity: `After breakfast at the camp, you have an optional morning game drive in the reserve before our departure to Nairobi.
+
+Upon arrival in Nairobi, we can arrange lunch at a restaurant before you are dropped off at your hotel or airport for your departure back home.`, image: 'Maasai Mara' },
+
+ ],
+whatToExpect:[
+   "Begin your journey in Nairobi and head to Amboseli National Park, famous for its massive elephant herds and breathtaking views of Mount Kilimanjaro.",  
+  "Explore Tsavo West National Park, visiting the crystal-clear Mzima Springs and spotting diverse wildlife including rhinos, elephants, and the legendary maneless lions.",  
+  "Continue to Tsavo East National Park, renowned for its vast landscapes, the Aruba Dam, and the historic tales of the Tsavo man-eaters.",  
+  "Experience thrilling morning and afternoon game drives across iconic Kenyan savannahs, offering incredible opportunities for photography and wildlife encounters.",  
+  "Conclude your safari with a scenic drive back to Nairobi, with the option of a final lunch stop before being dropped off at your hotel or airport."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '3-day-amboseli-tsavo-east-mombasa',
+    title: `3-Day Amboseli -Tsavo East -Mombasa Safari`,
+    location: 'Kenya',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1149,
+    rating: 4.8,
+    reviews: 3529,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1149,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `The tour offers a chance to explore Kenya's second most famous park after Masai Mara. Amboseli is famous for the large herds of elephants, in addition, it offers the best view of the Africans top highest mountain Mt Kilimanjaro. You will also have a chance to visit either Tsavo West or Tsavo East depending on where you want to be dropped after the safari. The tour can either start in Nairobi or Mombasa.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for all ages",
+          description: "This tour is suitable for children of all ages."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: "Jomo Kenyatta Airport (NBO)",
+      endLocation: "Mombasa", 
+      endAirport: "Moi Airport (MBA)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi - Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `You'll be picked up from the airport or hotel in Nairobi and drive to Amboseli National Park. The park is famous for its herds of elephants, the Big Five, and the famous Africa highest mountain, Mount Kilimanjaro. You will arrive time for lunch, have lunch then proceed to afternoon game drive. Dinner and your overnight stay will be at the camp.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Amboseli National Park - Tsavo East National Park', mainDestination: 'Tsavo East National Park', nights: '1', hotel: `Red Elephant Safari Lodge`, activity: `Breakfast and depart from Amboseli National Park in the morning and drive to Tsavo East with a game drive en-route. On arrival at the lodge check in and have lunch. Then proceed to an afternoon game drive in search of wildlife. Later, drive back to the lodge for dinner and your overnight stay at the lodge.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Tsavo East National Park -Mombasa or Diani', mainDestination: '', nights: '1', hotel: ``, activity: `You'll have breakfast. Then check out and drive to Mombasa through the park with enroute game drive arriving at around noon. You'll be dropped off at your beach hotel.`, image: 'Maasai Mara' },
+ ],
+whatToExpect:[
+  "Start your adventure in Nairobi and journey to Amboseli National Park, famous for its herds of elephants and breathtaking views of Mount Kilimanjaro.",  
+  "Enjoy thrilling game drives in Amboseli, spotting the Big Five, giraffes, zebras, and diverse birdlife against the stunning backdrop of Africa’s highest peak.",  
+  "Continue to Tsavo East National Park, one of Kenya’s largest parks, renowned for its red-dusted elephants, wide landscapes, and unforgettable game drives.",  
+  "Experience afternoon and morning game drives in Tsavo East, with chances to spot lions, buffalo, cheetahs, and other wildlife in their natural habitat.",  
+  "Conclude your safari with a scenic drive to Mombasa or Diani, where you’ll be dropped off at your beach hotel to relax by the Indian Ocean."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '3-day-samburu-wildernes-adventure',
+    title: `3-Day Samburu Wildernes Adventure`,
+    location: 'Kenya',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1220,
+    rating: 4.9,
+    reviews: 2379,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1220,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `A safari in Samburu National Reserve promises breathtaking encounters with a variety of wild animals. You may spot elusive predators such as leopards, lions, and cheetahs, as well as abundant plains game species. The reserve is renowned for its unique Special Five —distinctive animals rarely found elsewhere. These include the Beisa oryx, known for its elegant horns; the long-necked gerenuk, the Grevy's zebra, the reticulated giraffe, and the Somali ostrich.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget Camping",
+          description: "This is a budget camping tour."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 2 years",
+          description: "The minimum age for this tour is 2 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: "Jomo Kenyatta Airport (NBO)",
+      endLocation: "Nairobi", 
+      endAirport: "Jomo Kenyatta Airport (NBO)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi to Samburu National Reserve', mainDestination: 'Samburu National Reserve', nights: '1', hotel: `Umoja Campsite`, activity: `You'll start your journey where you will be picked up from the airport or hotel. You'll drive in the wild semi-arid landscape part of Northern Kenya in Samburu National Reserve. You'll arrive in time for lunch and check-in. Later, you'll proceed for an afternoon game drive. Expect to see the large numbers of animals and birdlife. Combining Shaba and Buffalo Springs National Park Samburu is popular for hosting the unique rare northern Kenya animal species known as the special five which are not found in other national parks and reserves in Kenya. Home to all African cats (lion, cheetah, and leopard). Other games include elephants, buffaloes, warthogs, hippos, impalas, waterbucks, and other wildlife. Bird species include kingfishers, bee-eaters, tawny, guinea fowl, yellow-throated, and superb starling. Samburu National Park is combined with the beautiful locals of the Samburu tribe they are the pillar of the area.
+Your accommodation and meals will be at Umoja Camp.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Full-Day Game Drive in Samburu National Reserve', mainDestination: 'Samburu National Reserve', nights: '1', hotel: `Umoja Campsite`, activity: `After an early morning breakfast, you'll proceed for a full-day game drive at Samburu National Reserve with a picnic lunch. Still, you will enjoy the wilderness safari like Samburu. You'll go back to the camp where you will be served a delicious Kenyan dinner.
+
+You will go back for dinner and an overnight stay at Umoja Camp.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Depart to Nairobi', mainDestination: 'Nairobi (City)', nights: '1', hotel: ``, activity: `Nairobi (City)`, image: 'Maasai Mara' },
+ ],
+whatToExpect:[
+   "Begin your journey from Nairobi to Samburu National Reserve, a semi-arid wilderness in Northern Kenya renowned for its rugged landscapes and unique wildlife.",  
+  "Spot the rare Samburu Special Five—Grevy’s zebra, reticulated giraffe, Somali ostrich, Beisa oryx, and gerenuk—species not found in other parks.",  
+  "Enjoy thrilling game drives with opportunities to encounter elephants, lions, leopards, cheetahs, buffalo, and an incredible variety of birdlife.",  
+  "Immerse yourself in the cultural heritage of the Samburu people, known for their vibrant traditions and warm hospitality.",  
+  "Conclude your adventure with a final game drive before returning to Nairobi, carrying unforgettable memories of Samburu’s wildlife and culture."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  }, 
+    {
+    id: '3-day-mount-kenya-trek-sirimon-to-chogoria',
+    title: `3-Day Mount Kenya Trek Sirimon to Chogoria`,
+    location: 'Kenya',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 989,
+    rating: 5,
+    reviews: 1280,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 989,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Ascend Mount Kenya via Sirimon and descend through scenic Chogoria on this 3-day adventure. You'll trek from forest to alpine meadows, summit Point Lenana (4,985m) at sunrise, then explore the Gorges Valley, Lake Michaelson, and Nithi Falls. A perfect short trek combining diverse landscapes, wildlife, and panoramic views across Africa’s second-highest mountain.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour includes mountain huts and camping."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 18 years",
+          description: "The minimum age for this tour is 18 years."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: "Jomo Kenyatta Airport (NBO)",
+      endLocation: "Nairobi", 
+      endAirport: "Jomo Kenyatta Airport (NBO)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi - Sirimon Gate – Judmaier Camp', mainDestination: 'Mount Kenya', nights: '1', hotel: `Judmaier Campsite`, activity: `Hiking Distance: 8Kms
+Duration: 3-4hrs
+You'll leave Nairobi at 7:00 am and proceed to Sirimon Gate, where you will have lunch and begin your trek. From the gate follow the track as it winds uphill though the forest which later becomes heath land up-to Old Moses camp 3,300m at sea level.
+Your dinner and overnight stay will be at the Old Moses camp cabin.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Judmaier Camp - Shiptons Camp', mainDestination: 'Mount Kenya', nights: '1', hotel: `Shipton Campsite`, activity: `Hiking Distance: 16Kms
+Duration: 6hrs
+After breakfast, you'll follow the track uphill, forking left at the junction. After one hour from Old Moses Camp, the track crosses the Ontulili River. You'll go right contouring through the Moorland and crossing Likii North, and continue uphill to Mackinder’s Valley, from where there are panoramic views up the valley towards the main peaks.
+Your dinner and overnight stay will be at Shipton's Camp, 4,200m above sea level.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Shiptons Camp - Point Lenana - Chogoria Gate', mainDestination: 'Nairobi (City)', nights: '1', hotel: ``, activity: `Hiking Distance: 24Kms
+Duration: 14hrs
+You'll leave at 2:00 am up a steep stony quarry that cuts through a cliff, clearing visible part towards Harris Tarn, arriving point Lenana(4,985m at sea level) at 6:20 am, taking about 3 hours. After the sunrise, you'll descend to Mintos Camp for a hearty breakfast. After a short rest, you'll continue descending to the Road-head for lunch. Here, you will have the opportunity to visit Nithi Waterfalls before heading down to Chogoria gate, where you'll check out the park and board a 4WD vehicle for a drop off at Chogoria Town, where you will say goodbye to the team. Later, you'll board a waiting car for a transfer back to Nairobi.`, image: 'Maasai Mara' },
+],
+whatToExpect:[
+  "Embark on an adventurous trek up Mount Kenya, Africa’s second-highest mountain, beginning your journey from Nairobi to the Sirimon Gate trailhead.",  
+  "Experience diverse landscapes as you hike through lush forest, heathland, and scenic moorland, with breathtaking views unfolding at every step.",  
+  "Challenge yourself with a rewarding trek to Point Lenana at 4,985m, arriving in time for a magical sunrise over the rugged peaks.",  
+  "Descend through the dramatic Chogoria route, with highlights including Mintos Camp, the Road-head, and the stunning Nithi Waterfalls.",  
+  "Enjoy full support from professional guides, hearty meals, and comfortable mountain camps, ensuring an unforgettable, safe, and enriching climbing experience."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '3-day-the-amboseli-budget-safari',
+    title: `3-Day The Amboseli Budget Safari`,
+    location: 'Kenya',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1111,
+    rating: 5,
+    reviews: 2139,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1111,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `A private, luxurious safari to Amboseli National Park is being offered, complete with a 4x4 Land Cruiser and an expert driver-guide. This excursion is special and healthy because of the view of the beautiful Mount Kilimanjaro, the vast herds of elephants, and the lyrical sounds of many kinds of birds at the swamp.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses tented camps."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for all ages",
+          description: "This tour is suitable for children of all ages."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: "Jomo Kenyatta Airport (NBO)",
+      endLocation: "Nairobi", 
+      endAirport: "Jomo Kenyatta Airport (NBO)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi-Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `On your first day, an Antonio Safaris representative at the Jomo Kenyatta International Airport (JKIA) or your Nairobi Hotel will meet you with a warmly welcome. You will then board your awaiting vehicle (4x4 Pop-up Roof Safari Land Cruiser) and depart for Amboseli. Arrive at Amboseli in time for check-in and lunch, after which you will proceed for an afternoon Game Drive in the Park.
+Amboseli is home to the African Elephants, the gentle giants of the wild, and is host to iconic wildlife including four of the Big Five Wildlife species. The park offers an up-close encounter with herds of big-tusked African elephants that flock the park. Across the park’s open savannah grasslands, catch a glimpse of the Mount Kilimanjaro, Africa’s highest summit, which towers over the park across the border.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `The entire day will be spent in Amboseli, with brief glimpses of Mount Kilimanjaro when the clouds part. After breakfast, you can choose to go on an afternoon game drive, or you can go on a full-day game drive with a packed lunch from 8 am to 4 pm. Your overnight accommodations and all meals are at Nyati Safari Camp.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Amboseli National Park- Nairobi', mainDestination: 'Nairobi (City)', nights: '', hotel: ``, activity: `After a leisurely breakfast, you will say your goodbyes to the Amboseli and drive back to Nairobi.
+Drop off at your Nairobi Hotel or the Nairobi Airport.`, image: 'Maasai Mara' },
+
+],
+whatToExpect:[
+ "Start your adventure with a scenic drive from Nairobi to Amboseli National Park, one of Kenya’s most iconic safari destinations.",  
+  "Marvel at herds of African elephants roaming against the breathtaking backdrop of Mount Kilimanjaro, Africa’s tallest peak.",  
+  "Enjoy thrilling game drives with opportunities to spot lions, cheetahs, buffalo, giraffes, zebras, and an abundance of birdlife.",  
+  "Capture stunning views of Amboseli’s open plains, wetlands, and acacia woodlands, home to diverse wildlife and picturesque landscapes.",  
+  "Conclude your safari with unforgettable memories of Amboseli’s wildlife encounters before returning to Nairobi."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+      {
+    id: '3-day-tsavo-east-taita-safari-sentrim-salt-lick',
+    title: `3-Day Tsavo East & Taita Safari (Sentrim & Salt Lick)`,
+    location: 'Kenya',
+    duration: '3 Days / 2 Nights',
+    pricePerPerson: 1229,
+    rating: 4.6,
+    reviews: 3249,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1229,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Welcome to our Salt Lick Lodge and Tsavo safari. Explore the wide plains with a view of the forest-covered Taita Hills, a savannah with scrubland and rock formations. Huge-tusked elephants come to quench their thirst at the waterhole in front of the lodge. Enjoy the theater of the wilderness in Tsavo East and the safari feeling in the camp. All this awaits you on the safari! Let us take you closer to nature in style.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 1 year",
+          description: "The minimum age for this tour is 1 year."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives & evening/night game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Mombasa",
+      startAirport: "Moi Airport (MBA)",
+      endLocation: "Mombasa", 
+      endAirport: "Moi Airport (MBA)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Mombasa to Tsavo East National Park', mainDestination: 'Tsavo East National Park', nights: '1', hotel: `Lion Hill Lodge`, activity: `Nairobi highway. On the way, we will make a short stop at Kilimanjaro Restaurant and then drive to the Tsavo Gate, the "Theater of the Wild"!
+
+As you enter the gate, you will be welcomed by the red earth of Tsavo. The nature trails, bush savannah, and the first sightings of wild animals shape your impression of real Africa.
+
+We will make our first game drive through the park in search of wild animals. Tsavo is home to thousands of wildlife, and every minute, something great might pop up on the way. We arrive at the lodge in time for lunch. Check in and spend your midday to rest during the hottest time of the day.
+
+In the evening, there is a second extended game drive through the park. Until the onset of dusk, you will explore the beauty of nature and its wildlife by Jeep. Filled with exciting impressions, we return for dinner and overnight at Sentrim Tsavo Camp.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Tsavo East National Park to Taita Salt Lick', mainDestination: 'Taita Hills Wildlife Sanctuary', nights: '1', hotel: `Salt Lick Safari Lodge`, activity: `We get up early for coffee or tea and set off on the early morning stalk at daybreak - the best time of the day to see the big cats! We roam the park and later return for a full, rich breakfast.
+
+We pack our luggage and check out. We then make our last game drive in Tsavo, heading to the famous Taita Hill Sanctuary.
+
+Salt Lick Safari Lodge is one of the world's most magnificent and photographed lodges with its awesome architecture. It is a lodge built on stilts. We arrive in time for lunch and check-in. After lunch, you have time to look around and relax.
+
+In the afternoon, we start the game drive through the area and explore nature with the animal inhabitants until sunset. We return to Salt Lick Lodge to spend the night.
+
+Optionally, we can opt to do the night game drive, which makes this park unique.
+
+A nice evening awaits us at dinner, watching the animals approach the waterholes.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Taita Salt Lick Lodge to Mombasa', mainDestination: 'Mombasa Beaches', nights: '1', hotel: ``, activity: `On this fine day, we wake up early, grab a cup of coffee and head on an early stalk before returning for a full breakfast.
+
+We pack our bags and check out. Once again, we roam the area in search of wild animals for the last time before making our way back to Diani/Mombasa.
+
+We take a lunch break at Kilimanjaro Restaurant, after which we continue to the coast to your hotel or cottage.
+
+This is the end of your pure Kenya experience!`, image: 'Maasai Mara' },
+
+
+],
+whatToExpect:[
+  "Begin your journey with a scenic drive to Tsavo East National Park, famous for its red soil, vast savannahs, and diverse wildlife.",  
+  "Experience exciting game drives in search of elephants, lions, giraffes, buffalo, zebras, and more in the heart of Tsavo.",  
+  "Continue to the breathtaking Taita Hills Wildlife Sanctuary and stay at the iconic Salt Lick Safari Lodge, built on stilts above waterholes.",  
+  "Enjoy both daytime and optional night game drives, offering unique chances to spot nocturnal animals and unforgettable wildlife encounters.",  
+  "Conclude your safari with a final game drive before returning to Mombasa, carrying memories of Kenya’s rich landscapes and wildlife."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '4-day-nairobi-amboseli-tsavo-east-mombasa-diani-watamu',
+    title: `4-Day Nairobi-Amboseli-Tsavo East-Mombasa, Diani/Watamu`,
+    location: 'Kenya',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1299,
+    rating: 4.8,
+    reviews: 2786,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1299,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `You will start your trip in Nairobi and end your trip in Mombasa, Kenya. You will visit Amboseli and Tsavo East. We will also book a beach holiday for you, either on the north coast or the south coast. You have the option between budget accommodation or luxury accommodation on this tour, and we can provide quotes for a group, family, and solo travelers.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 1 year",
+          description: "The minimum age for this tour is 1 year."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof minivan",
+        gettingThere: "pop-up roof minivan"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Nairobi",
+      startAirport: " Jomo Kenyatta Airport (NBO)",
+      endLocation: "Mombasa", 
+      endAirport: "Moi Airport (MBA)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Nairobi to Amboseli', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `We will pick you up from Nairobi Airport or your Nairobi hotel and drive to Amboseli National Park. The park is famous for its herds of elephants, as well as the Big Five, and the famous highest African mountain, Mount Kilimanjaro. You will arrive in time for lunch, and after lunch, you will proceed on an afternoon game drive. Dinner and overnight will be at the camp.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Amboseli', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `Enjoy an early morning breakfast, then leave for a full day game drive in the park with packed lunch. Amboseli has plenty of wildlife and an abundance of birdlife. It also offers the best view of the magnificent mountain, Mt. Kilimanjaro, the highest mountain in Africa. Later you will drive back to the camp. Dinner and overnight will be at the camp.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Amboseli - Tsavo East', mainDestination: 'Tsavo East National Park', nights: '1', hotel: `Boma Simba Safari Lodge`, activity: `Depart Amboseli after breakfast and drive to Tsavo East. Enjoy ride along famous Nairobi mombasa highway and arrive at the lodge for check-in. Have lunch, then proceed on an afternoon game drive in search of wildlife. Later we will drive back to the lodge for dinner and overnight at Boma safari lodge.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Tsavo East to Mombasa', mainDestination: 'Mombasa Beaches', nights: '1', hotel: ``, activity: `Enjoy an early morning breakfast, short enroute game drive then check out of the park and drive to Mombasa. You will arrive around lunchtime. We will be able to drop you at your hotel of choice.`, image: 'Maasai Mara' },
+
+],
+whatToExpect:[
+  "Start your adventure in Nairobi and journey to Amboseli National Park, home to large elephant herds and breathtaking views of Mount Kilimanjaro.",  
+  "Enjoy full-day and afternoon game drives in Amboseli, spotting the Big Five, giraffes, zebras, and diverse bird species across the open savannah.",  
+  "Continue your safari to Tsavo East National Park, renowned for its red-soil landscapes, vast plains, and spectacular wildlife sightings.",  
+  "Experience thrilling morning and afternoon game drives in Tsavo East, with opportunities to encounter lions, elephants, buffalo, and more.",  
+  "Conclude your journey with a scenic drive to Mombasa, where you’ll be dropped off at your beach hotel for relaxation by the Indian Ocean."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+      {
+    id: '4-day-mikumi-nyerere-unforgettable-adventures',
+    title: `4-Day Mikumi NP & Nyerere NP Unforgettable Adventures`,
+    location: 'Tanzania',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1330,
+    rating: 4.9,
+    reviews: 3217,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1330,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Explore Mikumi's diverse savannahs, then venture into UNESCO-listed Nyerere National Park for encounters with iconic African wildlife. Carefully selected mid-range accommodations ensure comfort. Join us for an unforgettable safari, immersing in the untamed beauty of Tanzania. Discover, encounter, and savor the charm of these remarkable national parks`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses lodges."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 2 year",
+          description: "The minimum age for this tour is 2 year."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof minivan",
+        gettingThere: "pop-up roof minivan"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Dar Es Salaam",
+      startAirport: "Julius Nyerere Airport (DAR)",
+      endLocation: "Dar Es Salaam", 
+      endAirport: "Julius Nyerere Airport (DAR",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Dar es Salaam to Mikumi and Game Drive', mainDestination: 'Mikumi National Park', nights: '1', hotel: `Camp Bastian Mikumi`, activity: `You will be picked up from the airport, hotel, or ferry and drive to Mikumi National Park, which is approximately a 6-hour drive. Stop in Morogoro for lunch and proceed to Mikumi National Park. On arrival in the park, you will immediately start an afternoon to evening game drive. You will return to the lodge for relaxation, dinner, and overnight at Mikumi Bandaz.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Mikumi and Selous Boat Safari', mainDestination: 'Nyerere National Park', nights: '1', hotel: `Mloka Safari Lodge`, activity: `We'll have an early morning game drive in Mikumi. We will then have breakfast and drive to Selous (Nyerere National Park). On arrival, you will enjoy lunch and then start with an evening boat safari along the mighty Rufiji River. You will discover the Rufiji River by boat and encounter hippos and crocodiles in good numbers. Some 350 species of birds have been recorded in Selous. These are typical of the Miombo woodlands, and the birdlife supported by the Rufiji swamp lands is particularly interesting. You will have dinner and overnight at Mloka Safari Lodge.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Guided Game Drive in Nyerere NP', mainDestination: 'Nyerere National Park', nights: '1', hotel: `Mloka Safari Lodge`, activity: `After breakfast, you go for a full-day game drive with packed lunch boxes in Selous. You will enjoy a picnic lunch at the site the guide will select. After your picnic lunch and some relaxation, you continue the game drive until the evening. Dinner and your overnight stay are at Mloka Safari Lodge.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Walking Safari - Selous to Dar es Salaam', mainDestination: 'Dar Es Salaam (City)', nights: '1', hotel: ``, activity: `Start the day with a morning walking safari, which takes around two and a half hours. Return to your camp and have breakfast. You will then relax a bit and enjoy the environment of the lodge. After that, drive back to Dar es Salaam.
+
+On arrival in Dar es Salaam, you will be dropped off at the airport for your flight back home, the hotel, or the ferry to Zanzibar or Mafia Island.`, image: 'Maasai Mara' },
+],
+whatToExpect:[
+   "Begin your adventure with a scenic drive from Dar es Salaam to Mikumi National Park, where you’ll enjoy thrilling afternoon and morning game drives.",  
+  "Explore Mikumi’s vast savannahs, home to elephants, lions, giraffes, zebras, and abundant birdlife.",  
+  "Continue to Nyerere National Park (Selous) for a unique boat safari along the Rufiji River, spotting hippos, crocodiles, and vibrant bird species.",  
+  "Experience a full-day game drive in Selous, one of Africa’s largest protected areas, teeming with wildlife and breathtaking landscapes.",  
+  "Conclude with a guided walking safari before returning to Dar es Salaam, carrying unforgettable memories of Tanzania’s wild beauty."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+     {
+    id: '3-day-budget-safari-tarangire-ngorongoro-manyara',
+    title: `3-Day Budget Safari Tarangire/Ngorongoro Crater/Manyara`,
+    location: 'Tanzania',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1249,
+    rating: 5,
+    reviews: 3893,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1249,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `You'll go on a 3-day, 2-night safari in Tanzania and explore the stunning Tarangire, Ngorongoro Crater, and Lake Manyara. You'll enjoy a private tour with an expert guide in a comfortable safari jeep that has sockets and a fridge. Throughout your trip, unlimited water will be provided, making sure you stay refreshed and enjoy the beauty of Tanzania’s natural wonders.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses hotels."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 5 year",
+          description: "The minimum age for this tour is 5 year."
+        }
+      ],
+      activitiesTransportation: {
+        activities: "game drives",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Arusha",
+      startAirport: "Kilimanjaro Airport (JRO)",
+      endLocation: "Dar Es Salaam", 
+      endAirport: "Arusha Airport (ARK)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Arusha/JRO Airport – Tarangire National Park', mainDestination: 'Tarangire National Park', nights: '1', hotel: `Fig Lodge`, activity: `When you arrive at Arusha/JRO Airport, our tour guide will greet you with your lunch box ready. You will then be driven to Tarangire National Park, where you’ll check in at the park gate and start the game drive. Keep an eye out for herds of elephants and the iconic baobab trees. After the game drive, we’ll take you to your lodge for dinner and an overnight stay.
+
+Tarangire is known for its large elephant herds and stunning baobab trees. While exploring, you'll have the chance to see a variety of wildlife, such as zebras, impalas, lions, cheetahs, and leopards, all in their natural environment.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Karatu – Ngorongoro Crater', mainDestination: 'Ngorongoro Crater', nights: '1', hotel: `Fig Lodge`, activity: `After breakfast, you’ll begin your scenic journey to Ngorongoro Crater for a game drive. You’ll descend into the crater to see the Big Five and other fascinating wildlife. After the game drive, you’ll return to Karatu for your overnight stay.
+
+Ngorongoro Crater, often called 'Africa's Garden of Eden,' is a remarkable natural wonder in northern Tanzania. The huge crater was formed over 2.5 million years ago when a large volcano, about the size of Mount Kilimanjaro, erupted and collapsed.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Lake Manyara National Park – Arusha/JRO Airport', mainDestination: 'Lake Manyara National Park', nights: '1', hotel: ``, activity: `After breakfast, you’ll drive to Lake Manyara National Park for a game drive. Keep an eye out for the famous tree-climbing lions, large herds of elephants, and vibrant birdlife around the lake. After the game drive, you’ll head to Arusha/JRO Airport, marking the end of your safari.
+
+Lake Manyara is a shallow, alkaline lake in northern Tanzania, known for its beautiful scenery and wide variety of wildlife. It’s part of Lake Manyara National Park, which includes lush forests, open grasslands, and hot springs. The lake is famous for its large flamingo flocks and tree-climbing lions, and its size changes depending on seasonal rainfall.`, image: 'Maasai Mara' },
+
+
+],
+whatToExpect:[
+  "Start your journey at Tarangire National Park, famous for its vast elephant herds and striking baobab trees.",  
+  "Enjoy thrilling game drives with opportunities to spot lions, leopards, cheetahs, zebras, and more wildlife roaming the savannah.",  
+  "Descend into the Ngorongoro Crater, often called ‘Africa’s Garden of Eden,’ home to the Big Five and breathtaking landscapes.",  
+  "Discover Lake Manyara National Park, renowned for its tree-climbing lions, elephants, flamingos, and diverse birdlife along the lakeshore.",  
+  "Conclude your safari with unforgettable wildlife encounters and stunning scenery before returning to Arusha or JRO Airport."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+    {
+    id: '4-day-safari-to-ruaha-national-park-tanzania',
+    title: `4-Day Safari to Ruaha National Park Tanzania`,
+    location: 'Tanzania',
+    duration: '4 Days / 3 Nights',
+    pricePerPerson: 1056,
+    rating: 4.6,
+    reviews: 2678,
+    description: "",
+    image: 'Elephants drinking at the Chobe Riverfront Botswana at sunset',
+    tags: ['botswana', 'okavango delta', 'chobe', 'elephants', 'luxury', 'boating'],
+    bestMonths: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    budgetPlaceholder: 1056,
+    
+    // OVERVIEW CONTENT
+    overviewContent: {
+      mainDescription: `Ruaha National Park is the second-largest park in Tanzania covering an area of 20,226sq km. The park has a high diversity of both flora and fauna and is considered the home of 10% of the remaining population of lions in Africa. Important information 1. The tour is private 2. Close encounter with wildlife 3. Small groups to ensure personal service 4. Free hotel pickup and drop off 5. Meal options are available, especially for vegetarians 6. Informative, friendly and professional driver-guide.`,
+      tourFeatures: [
+        {
+          icon: <Home className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Budget tour",
+          description: "This budget tour uses cottages."
+        },
+        {
+          icon: <Settings className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can be customized",
+          description: "You can request minor changes to the accommodations and destinations of this tour."
+        },
+        {
+          icon: <UserCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Private tour",
+          description: "This tour will be organized exclusively for you and won't be shared with others."
+        },
+        {
+          icon: <Users className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Suitable for solo travelers",
+          description: "Solo travelers can book this private tour."
+        },
+        {
+          icon: <CalendarCheck className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Can start any day",
+          description: "If availability permits, this tour can start on any day of the year."
+        },
+        {
+          icon: <Baby className="w-6 h-6 text-orange-400 group-hover:text-orange-300" />,
+          title: "Minimum age of 1 year",
+          description: "The minimum age for this tour is 1 year."
+        }
+      ],
+      activitiesTransportation: {
+        activities: " game drives & walking safaris (with an armed guide)",
+        gameVehicle: "pop-up roof 4x4 vehicle",
+        gettingThere: "pop-up roof 4x4 vehicle"
+      }
+    },
+
+    // INCLUSIONS CONTENT
+inclusionsContent: {
+ "included": [
+    {
+      "title": "Park fees",
+      "subtitle": "(For non-residents)"
+    },
+    {
+      "title": "All activities",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All accommodation",
+      "subtitle": "(Unless listed as upgrade)"
+    },
+    {
+      "title": "All transportation",
+      "subtitle": "(Unless labeled as optional)"
+    },
+    {
+      "title": "All Taxes/VAT",
+      "subtitle": null
+    },
+    {
+      "title": "A professional driver/guide",
+      "subtitle": null
+    },
+    {
+      "title": "Meals",
+      "subtitle": "(As specified in the day-by-day section)"
+    },
+    {
+      "title": "Drinking water",
+      "subtitle": "(On all days)"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "International flights",
+      "subtitle": "(From/to home)"
+    },
+    {
+      "title": "Additional accommodation before and at the end of the tour",
+      "subtitle": null
+    },
+    {
+      "title": "Tips",
+      "subtitle": "(Tipping guideline US$10.00 pp per day)"
+    },
+    {
+      "title": "Personal items",
+      "subtitle": "(Souvenirs, travel insurance, visa fees, etc.)"
+    },
+    {
+      "title": "Government imposed increase of taxes and/or park fees",
+      "subtitle": null
+    }
+  ]
+},
+
+    gettingThere: {
+      startLocation: "Iringa",
+      startAirport: " Julius Nyerere Airport (DAR)",
+      endLocation: "Dar Es Salaam", 
+      endAirport: " Julius Nyerere Airport (DAR)",
+      airportTransfer: "A transfer from and back to the airport is included",
+      internationalFlights: "We can help book your international flights, but you'll have to pay them yourself ",
+      additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
+    },
+    itinerary: [
+{ day: 1, location: 'Iringa -Ruaha National Park', mainDestination: 'Ruaha National Park', nights: '1', hotel: `TANAPA Ruaha Cottages`, activity: `After you arrive, you will be picked up from the airport and driven directly to a nice hotel for breakfast. After breakfast, continue to Ruaha National Park. The drive will take almost 2 hours and a half or more depending on what is to be found on the way. On arrival, check-in and get ready for hot lunch. After lunch, enjoy a little leisure time then depart for the afternoon game drive in the magnificent Ruaha National Park. Ruaha is rich with lots of different animals e.g. antelopes, giraffes, buffaloes, lions, leopards, elephants, cheetahs, and lots more to be offered.
+Dinner and your overnight stay are at the cottage.
+Meal plan: Lunch and dinner.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Ruaha National Park', mainDestination: 'Ruaha National Park', nights: '1', hotel: `TANAPA Ruaha Cottages`, activity: `Have an early morning breakfast then leave for the full-day game drive. Lunch will be served at the picnic site in the park. After lunch, proceed with a game drive until evening time when you'll drive back to the cottage.`, image: 'Maasai Mara' },
+{ day: 3, location: 'Ruaha National Park', mainDestination: 'Ruaha National Park', nights: '1', hotel: `TANAPA Ruaha Cottages`, activity: `At sunrise, enjoy a wonderful walking safari for about 2 to 3 hours walk along the Great Ruaha River with two armed rangers. There is a possibility of viewing hippos, crocodiles, lions, and lots of other animals that comes to drink water in the river. Later, come back for breakfast. Enjoy the afternoon time leisure then continue with the game drive until 6:00 pm.
+Dinner and your overnight stay are at the cottage.
+Meal plan: Breakfast, lunch, and dinner.`, image: 'Maasai Mara' },
+{ day: 4, location: 'Ruaha National Park - Iringa', mainDestination: 'Iringa (City)', nights: '1', hotel: ``, activity: `Early morning game drives start at 6:30 am until 9:30 am. Then you'll get back for breakfast which will be served at the cottage. After breakfast, collect all your belongings and depart for the drive to Iringa with a game drive en-route as you head out of the park.
+Meal plan: Breakfast
+You'll be dropped off at the airport.`, image: 'Maasai Mara' },
+
+],
+whatToExpect:[
+    "Explore the remote and unspoiled Ruaha National Park, Tanzania’s largest national park known for its dramatic landscapes and rich wildlife.",  
+  "Enjoy thrilling morning, afternoon, and full-day game drives with opportunities to spot lions, leopards, cheetahs, elephants, buffaloes, giraffes, and more.",  
+  "Experience a unique walking safari along the Great Ruaha River, guided by armed rangers, offering close encounters with hippos, crocodiles, and diverse birdlife.",  
+  "Relax at TANAPA Ruaha Cottages after adventurous days, enjoying delicious meals and the peaceful wilderness atmosphere.",  
+  "Conclude your safari with a scenic game drive as you exit the park, leaving with unforgettable memories of Tanzania’s wild beauty."  
+ ],
+    nextTrip: 'namibia-desert-wildlife',
+    prevTrip: 'zambia-walking-safari',
+    suggestedTrips: [
+      { id: 'zambia-walking-safari', title: 'Zambia Walking Safari Adventure', duration: '9 Days', image: 'Walking safari group in South Luangwa National Park Zambia', pricePerPerson: 4500, location: 'Zambia' },
+      { id: 'namibia-desert-wildlife', title: 'Namibia Desert & Wildlife', duration: '12 Days', image: 'Oryx on Sossusvlei dunes Namibia', pricePerPerson: 4700, location: 'Namibia' }
+    ]
+  },
+   
+  
 ];
 
 // ========================================
