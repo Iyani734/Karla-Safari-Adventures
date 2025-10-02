@@ -441,7 +441,7 @@ const eastAfricaTours = [
     location: 'Tanzania',
     subLocation: 'Arusha,Tarangire NP,Serengeti NP,Ngorongoro Crater',
     duration: '5 Days / 4 Nights',
-    pricePerPerson: 6550,
+    pricePerPerson: 6550,//5624
     rating: 5,
     reviews: 3281,
     description: "Embark on a breathtaking Tanzanian safari through Tarangire, Serengeti, and Ngorongoro Crater. Witness the Big Five, endless plains, and rich wildlife while enjoying luxury lodges, expert guides, and unforgettable adventures in Africa’s wilderness.",
@@ -456,14 +456,14 @@ const eastAfricaTours = [
     location: 'Tanzania',
     subLocation: 'Arusha,Serengeti NP,',
     duration: '5 Days / 4 Nights',
-    pricePerPerson: 6896,
+    pricePerPerson: 6896,//5940
     rating: 4.9,
     reviews: 2638,
     description: "Soar above Tanzania on a luxury fly-in safari to the Serengeti. Experience thrilling game drives, a breathtaking sunrise balloon ride, gourmet dining, and elegant lodges — where wilderness adventure meets unmatched comfort and exclusivity.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury Plus', 'solo'],
     link: '/kruger3.jpg'
-  //https://www.safaribookings.com/tours/t57542
+  //https://www.safaribookings.com/tours/t99652
   },
     {
     id: '4-day-safari-high-end',
@@ -471,7 +471,7 @@ const eastAfricaTours = [
     location: 'Tanzania',
     subLocation: 'Arusha,Serengeti NP,lake manyara,Ngorongoro',
     duration: '4 Days / 3 Nights',
-    pricePerPerson: 4830,
+    pricePerPerson: 4830,//3590
     rating: 4.9,
     reviews: 3782,
     description: "Discover Tanzania’s beauty with Lake Manyara’s diverse wildlife, the Serengeti’s endless plains, and Ngorongoro’s breathtaking crater. Experience thrilling game drives, luxury lodges, and unforgettable encounters with Africa’s most iconic animals on this extraordinary safari.",
@@ -486,14 +486,14 @@ const eastAfricaTours = [
     location: 'Tanzania',
     subLocation: 'Zanzibar,Northern Serengeti National Park,Central Serengeti National Park,lake manyara,Ngorongoro Crater,Tarangire National Park',
     duration: '5 Days / 4 Nights',
-    pricePerPerson: 3566,
+    pricePerPerson: 3566, //2849
     rating: 5,
     reviews: 2839,
     description: "Embark on a once-in-a-lifetime safari from Zanzibar to Serengeti, Ngorongoro, and Tarangire—witness the Great Migration, Big Five, and breathtaking landscapes while enjoying luxury camps, expert guides, and unforgettable wildlife encounters.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury', 'solo'],
     link: '/kruger3.jpg'
-  //hhttps://www.safaribookings.com/day/t95089
+  //https://www.safaribookings.com/tours/t95089
   },
   {
     id: '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro',
@@ -553,7 +553,7 @@ const eastAfricaTours = [
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'mid-range', 'solo'],
     link: '/kruger3.jpg'
-  //https://www.safaribookings.com/day/t86341
+  //https://www.safaribookings.com/tours/t86341
   },
    {
     id: '4-day-astonish-mikumi-ruaha-national-park',

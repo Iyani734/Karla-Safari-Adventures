@@ -790,10 +790,201 @@ const ACCOMMODATION_MANAGER = {
     meals: 'All Meals Included',
     website: 'https://www.krugeradventurelodge.co.za/',
     images: ['/krugerAdventures1.jpg','/krugerAdventure2.jpg','/krugerAdventure3.jpg','/krugerAdventure4.jpg','/krugerAdventure5.jpg','/krugerAdventure6.jpg','/krugerAdventure7.jpg','/krugerAdventure8.png','/krugerAdventure9.png','/krugerAdventure10.png','/krugerAdventure11.jpg','/krugerAdventure12.jpg','/krugerAdventure13.png','/krugerAdventure14.png','/krugerAdventure15.jpg','/krugerAdventure16.png','/krugerAdventure17.png','/krugerAdventure18.jpg','/krugerAdventure19.png',]
-  }
+  },
+  'elewana-tarangire-treetops': {
+    name: 'Elewana Tarangire Treetops',
+    description: 'Luxury lodge just outside Tarangire NP',
+    meals: 'All Meals Included',
+    website: 'http://www.elewanacollection.com/tarangire-treetops/tarangire-treetops-at-a-glance',
+     images: ['/elewana1.jpg','/elewana2.jpg','/elewana3.jpg','/elewana4.jpg','/elewana5.jpg','/elewana6.jpg']
+  },
+    'warangi-ridge-lodge': {
+    name: 'Warangi Ridge Lodge',
+    description: 'Luxury tented camp inside Central Serengeti NP',
+    meals: 'All Meals Included',
+    website: 'https://thewildernesscollection.com/warangi-ridge/',
+     images: ['/warangi1.jpg','/warangi2.jpg','/warangi3.jpg','/warangi4.jpg','/warangi5.jpg','/warangi6.jpg','/warangi7.jpg','/warangi8.jpg','/warangi9.jpg','/warangi10.jpg']
+  },
+   'craters-edge-lodge': {
+    name: 'Craters Edge Lodge',
+    description: 'Luxury lodge less than 1hr drive from Ngorongoro Crater',
+    meals: 'All Meals Included',
+    website: 'https://thewildernesscollection.com/craters-edge/',
+     images: ['/cratersEdge1.png','/cratersEdge2.png','/cratersEdge3.png','/cratersEdge4.png','/cratersEdge5.jpg','/cratersEdge6.png','/cratersEdge7.png','/cratersEdge8.png','/cratersEdge9.png','/cratersEdge10.png','/cratersEdge11.png','/cratersEdge12.png','/cratersEdge13.png']
+  },
+     'nanyukie-lodge': {
+    name: 'Nanyukie Lodge',
+    description: 'Luxury plus tented camp inside Central Serengeti NP',
+    meals: 'All Meals Included',
+    website: 'https://www.lemalacamps.com/stay/nanyukie-lodge/',
+     images: ['/nanyukieLodge1.png','/nanyukieLodge2.png','/nanyukieLodge3.png','/nanyukieLodge4.png','/nanyukieLodge5.jpg','/nanyukieLodge6.png','/nanyukieLodge7.png','/nanyukieLodge8.png',]
+  },
+   'mawe-mawe-lodge': {
+    name: 'Mawe Mawe Lodge',
+    description: 'Luxury lodge on the escarpment above Lake Manyara NP',
+    meals: 'All Meals Included',
+    website: 'https://mawemawemanyaralodge.co.tz/',
+     images: ['/mawemawe1.jpg','/mawemawe3.png','/mawemawe4.jpg','/mawemawe5.png','/mawemawe6.jpg','/mawemawe7.jpg','/mawemawe8.jpg','/mawemawe9.png','/mawemawe10.png',]
+  },
+  'the-highlands-camp': {
+    name: 'The Highlands Camp',
+    description: 'Luxury plus tented camp bordering Ngorongoro Crater without fences',
+    meals: 'All Meals Included',
+    website: 'https://www.asiliaafrica.com/camps-lodges/the-highlands-camp/',
+     images: ['/highlandsCamp1.jpg','/highlandsCamp3.jpg','/highlandsCamp4.jpg','/highlandsCamp5.jpg','/highlandsCamp6.jpg','/highlandsCamp7.jpg','/highlandsCamp8.jpg','/highlandsCamp9.jpg','/highlandsCamp10.jpg',]
+  },
+  'baobab-mara-luxury-camp' : {
+    name: 'Baobab Mara Luxury Camp',
+    description: 'Luxury tented camp inside Northern Serengeti NP',
+    meals: 'All Meals Included',
+    website: 'https://baobablodges.com/mara-luxury-camps/',
+     images: ['/boababMara1.jpg','/boababMara2.jpg','/boababMara3.jpg','/boababMara4.jpg','/boababMara5.jpg','/boababMara6.jpeg','/boababMara7.jpg','/boababMara8.jpg','/boababMara9.jpg','/boababMara10.jpg',,'/boababMara11.jpg','/boababMara12.jpg','/boababMara13.jpg',]
+  },
+    'tanzania-bush-camps' : {
+    name: 'Tanzania Bush Camps - Central Serengeti',
+    description: 'Mid-range tented camp inside Central Serengeti NP',
+    meals: 'All Meals Included',
+    website: 'https://tanzaniabushcamps.com/central-serengeti/',
+     images: ['/serengeti-tanzania-bush1.jpg','/serengeti-tanzania-bush2.jpg','/serengeti-tanzania-bush3.jpg','/serengeti-tanzania-bush4.jpg','/serengeti-tanzania-bush5.jpg','/serengeti-tanzania-bush6.jpg','/serengeti-tanzania-bush7.jpg','/serengeti-tanzania-bush8.jpg','/serengeti-tanzania-bush9.jpg','/serengeti-tanzania-bush10.jpg','/serengeti-tanzania-bush11.jpg','/serengeti-tanzania-bush12.jpg','/serengeti-tanzania-bush13.jpg','/serengeti-tanzania-bush14.jpg','/serengeti-tanzania-bush15.jpg','/serengeti-tanzania-bush16.jpg','/serengeti-tanzania-bush17.jpg','/serengeti-tanzania-bush18.jpg',]
+  }, 
+   'moyo-tented-camp' : {
+    name: 'Moyo Tented Camp',
+    description: 'Luxury tented camp inside Central Serengeti NP',
+    meals: 'All Meals Included',
+    website: 'https://www.moyotentedcamp.com/',
+     images: ['/moyo-tented-camp1.jpeg','/moyo-tented-camp2.jpeg','/moyo-tented-camp3.jpeg','/moyo-tented-camp4.jpeg','/moyo-tented-camp5.jpeg','/moyo-tented-camp6.jpg','/moyo-tented-camp7.jpg','/moyo-tented-camp8.jpg','/moyo-tented-camp9.jpg','/moyo-tented-camp10.jpg','/moyo-tented-camp11.jpg',]
+  }, 
+     'ngorongoro-marera-mountain-view-lodge' : {
+    name: 'Ngorongoro Marera Mountain View Lodge',
+    description: 'Luxury lodge 1-2hr drive from Tarangire NP',
+    meals: 'All Meals Included',
+    website: 'https://mareraviewlodge.com/',
+     images: ['/ngorongoro-Marera-mountain-view1.jpeg','/ngorongoro-Marera-mountain-view2.jpeg','/ngorongoro-Marera-mountain-view3.jpeg','/ngorongoro-Marera-mountain-view4.jpeg','/ngorongoro-Marera-mountain-view5.jpeg','/ngorongoro-Marera-mountain-view6.jpeg','/ngorongoro-Marera-mountain-view7.jpeg','/ngorongoro-Marera-mountain-view8.jpeg','/ngorongoro-Marera-mountain-view9.jpeg',]
+  }, 
+     'into-wild-africa-luxury-safari-camp-serengeti' : {
+    name: 'Into Wild Africa Luxury Safari Camp Serengeti',
+    description: 'Mid-range tented camp inside Central Serengeti NP',
+    meals: 'All Meals Included',
+    website: 'https://intowildafrica.com/',
+    images: ['/into-the-wild-africa1.jpeg','/into-the-wild-africa2.jpeg','/into-the-wild-africa3.jpeg','/into-the-wild-africa4.jpeg','/into-the-wild-africa5.jpeg','/into-the-wild-africa6.webp','/into-the-wild-africa7.jpg','/into-the-wild-africa8.jpg','/into-the-wild-africa9.jpg','/into-the-wild-africa10.jpg','/into-the-wild-africa11.jpg',]
+},   
+     'sweetwaters-serena-camp' : {
+    name: 'Sweetwaters Serena Camp',
+    description: 'Luxury tented camp inside Ol Pejeta Conservancy (Laikipia Plateau)',
+    meals: 'All Meals Included',
+    website: 'https://www.serenahotels.com/sweetwaters',
+    images: ['/sweetwaters-serena-camp1.jpg','/sweetwaters-serena-camp2.jpg','/sweetwaters-serena-camp3.jpg','/sweetwaters-serena-camp4.jpg','/sweetwaters-serena-camp5.jpg','/sweetwaters-serena-camp6.jpg','/sweetwaters-serena-camp7.jpg','/sweetwaters-serena-camp8.jpg','/sweetwaters-serena-camp9.jpg','/sweetwaters-serena-camp10.jpg','/sweetwaters-serena-camp11.jpg','/sweetwaters-serena-camp12.jpg','/sweetwaters-serena-camp13.jpg','/sweetwaters-serena-camp14.jpg','/sweetwaters-serena-camp15.jpeg','/sweetwaters-serena-camp16.jpg','/sweetwaters-serena-camp17.jpeg','/sweetwaters-serena-camp18.jpg','/sweetwaters-serena-camp19.jpg','/sweetwaters-serena-camp20.jpeg','/sweetwaters-serena-camp21.jpg','/sweetwaters-serena-camp22.jpg','/sweetwaters-serena-camp23.jpg','/sweetwaters-serena-camp24.jpg','/sweetwaters-serena-camp25.jpg',]
+}, 
+     'hhando-coffee-lodge' : {
+    name: 'Hhando Coffee Lodge',
+    description: 'Mid-range lodge 1-2hr drive from Tarangire NP',
+    meals: 'All Meals Included',
+    website: 'https://www.hhandocoffeelodge.com/',
+    images: ['/hhando-coffee-lodge1.jpg','/hhando-coffee-lodge2.jpg','/hhando-coffee-lodge3.jpg','/hhando-coffee-lodge4.jpg','/hhando-coffee-lodge5.jpg','/hhando-coffee-lodge6.jpg','/hhando-coffee-lodge7.jpg','/hhando-coffee-lodge8.jpg','/hhando-coffee-lodge9.jpg','/hhando-coffee-lodge10.jpg','/hhando-coffee-lodge11.jpg','/hhando-coffee-lodge12.jpg','/hhando-coffee-lodge13.jpg',]
+}, 
+     'marera-valley-lodge' : {
+    name: 'Marera Valley Lodge',
+    description: 'Mid-range lodge 1-2hr drive from Ngorongoro Crater',
+    meals: 'All Meals Included',
+    website: 'https://mareravalley.com/',
+    images: ['/marera-valley-lodge1.jpg','/marera-valley-lodge2.jpg','/marera-valley-lodge3.jpg','/marera-valley-lodge4.jpg','/marera-valley-lodge5.jpg','/marera-valley-lodge6.jpg','/marera-valley-lodge7.jpg','/marera-valley-lodge8.jpg',]
+},
+  'tulia-boutique-hotel-spa' : {
+    name: 'Tulia Boutique Hotel & Spa',
+    description: 'Mid-range hotel in Arusha (City)',
+    meals: 'All Meals Included',
+    website: 'https://www.tuliahotelandspa.com/',
+    images: ['/tulia-boutique-hotel1.jpg','/tulia-boutique-hotel2.jpg','/tulia-boutique-hotel3.jpg','/tulia-boutique-hotel4.jpg','/tulia-boutique-hotel5.jpg','/tulia-boutique-hotel6.jpg','/tulia-boutique-hotel7.jpeg','/tulia-boutique-hotel8.jpg','/tulia-boutique-hotel9.jpg','/tulia-boutique-hotel10.jpg','/tulia-boutique-hotel11.jpg','/tulia-boutique-hotel12.jpg','/tulia-boutique-hotel13.jpg','/tulia-boutique-hotel14.jpeg','/tulia-boutique-hotel15.jpg','/tulia-boutique-hotel16.jpg','/tulia-boutique-hotel17.jpg','/tulia-boutique-hotel18.jpg','/tulia-boutique-hotel19.jpg',]
+},
+  'bougainvillea-safari-lodge' : {
+    name: 'Bougainvillea Safari Lodge',
+    description: 'Mid-range lodge 1-2hr drive from Tarangire NP',
+    meals: 'All Meals Included',
+    website: 'https://bougainvilleasafarilodge.com/',
+    images: ['/bougainvillea-safari-lodge1.jpg','/bougainvillea-safari-lodge2.jpg','/bougainvillea-safari-lodge3.jpg','/bougainvillea-safari-lodge4.jpg','/bougainvillea-safari-lodge5.jpg','/bougainvillea-safari-lodge6.jpg','/bougainvillea-safari-lodge7.jpg','/bougainvillea-safari-lodge8.jpg',]
+},
+  'camp-lilac' : {
+    name: 'Camp Lilac',
+    description: 'Mid-range tented camp just outside Mikumi NP',
+    meals: 'All Meals Included',
+    website: 'https://www.camp-lilac.com/',
+    images: ['/camp-lilac.webp','/camp-lilac2.webp','/camp-lilac3.webp','/camp-lilac4.jpg','/camp-lilac5.jpg','/camp-lilac6.jpg','/camp-lilac7.jpg','/camp-lilac8.jpg','/camp-lilac9.jpg','/camp-lilac31.jpg']
+},
+  'TANAPA-ruaha-bandas' : {
+    name: 'TANAPA Ruaha Bandas',
+    description: 'Budget banda inside Ruaha NP',
+    meals: 'All Meals Included',
+    website: '',
+    images: ['/tanapa-ruaha-bandas.jpeg',]
+},
+  'ruaha-hilltop-lodge' : {
+    name: 'Ruaha Hilltop Lodge',
+    description: 'Mid-range lodge less than 1hr drive from Ruaha NP',
+    meals: 'All Meals Included',
+    website: 'https://www.ruahahilltoplodge.com/',
+    images: ['/ruaha-hilltop-lodge1.jpeg','/ruaha-hilltop-lodge2.jpg','/ruaha-hilltop-lodge3.jpg','/ruaha-hilltop-lodge4.jpg','/ruaha-hilltop-lodge5.jpg','/ruaha-hilltop-lodge6.jpg','/ruaha-hilltop-lodge7.jpg','/ruaha-hilltop-lodge8.jpg',]
+},
+  'penety-amboseli-resort' : {
+    name: 'Penety Amboseli Resort',
+    description: 'Mid-range hotel less than 1hr drive from Amboseli NP',
+    meals: 'All Meals Included',
+    website: 'https://penetyresorts.com/',
+    images: ['/penety-amboseli-resort1.jpg','/penety-amboseli-resort2.jpg','/penety-amboseli-resort3.jpg','/penety-amboseli-resort4.jpg','/penety-amboseli-resort5.jpg','/penety-amboseli-resort6.jpg','/penety-amboseli-resort7.jpg','/penety-amboseli-resort8.jpg','/penety-amboseli-resort10.jpg','/penety-amboseli-resort11.jpg',]
+},
+  'ngulia-safari-lodge' : {
+    name: 'Ngulia Safari Lodge',
+    description: 'Mid-range lodge inside Tsavo West NP',
+    meals: 'All Meals Included',
+    website: 'https://nguliasafarilodge.com/',
+    images: ['/ngulia-safari-lodge1.jpg','/ngulia-safari-lodge2.jpg','/ngulia-safari-lodge3.jpg','/ngulia-safari-lodge4.jpg','/ngulia-safari-lodge5.jpg','/ngulia-safari-lodge6.jpg','/ngulia-safari-lodge7.jpg',]
+}, 
+  'voi-safari-lodge' : {
+    name: 'Voi Safari Lodge',
+    description: 'Mid-range lodge inside Tsavo East NP',
+    meals: 'All Meals Included',
+    website: 'https://voisafarilodge.com/',
+    images: ['/voi-safari-lodge1.jpg','/voi-safari-lodge2.jpg','/voi-safari-lodge3.jpg','/voi-safari-lodge4.jpg','/voi-safari-lodge5.jpg','/voi-safari-lodge6.jpg','/voi-safari-lodge7.jpg','/voi-safari-lodge8.jpg','/voi-safari-lodge9.jpg','/voi-safari-lodge10.jpg','/voi-safari-lodge11.jpg',]
+}, 
+  'nyati-safari-camp' : {
+    name: 'Nyati Safari Camp',
+    description: 'Budget tented camp just outside Amboseli NP',
+    meals: 'All Meals Included',
+    website: 'https://www.nyatisafaricamp.com/',
+    images: ['/nyati-safari-camp1.jpg','/nyati-safari-camp2.jpg','/nyati-safari-camp3.jpg','/nyati-safari-camp4.jpg','/nyati-safari-camp5.jpg','/nyati-safari-camp6.jpg','/nyati-safari-camp7.jpg','/nyati-safari-camp8.jpg','/nyati-safari-camp9.jpg','/nyati-safari-camp10.jpg','/nyati-safari-camp11.jpg',]
+},  
+  'red-elephant-safari-lodge' : {
+    name: 'Red Elephant Safari Lodge',
+    description: 'Mid-range lodge outside Tsavo East NP',
+    meals: 'All Meals Included',
+    website: 'https://www.red-elephant-lodge.com/offline/',
+    images: ['/red-elephant-lodge1.jpg','/red-elephant-lodge2.jpg','/red-elephant-lodge3.jpg','/red-elephant-lodge4.jpg','/red-elephant-lodge5.jpg','/red-elephant-lodge6.jpg','/red-elephant-lodge7.jpg',]
+}, 
+  'umoja-campsite' : {
+    name: 'Umoja Campsite',
+    description: 'Budget camping just outside Samburu NR',
+    meals: 'All Meals Included',
+    website: 'https://www.umojawomen.or.ke/qinstpckg/index.php',
+    images: ['/umoja-campsite1.jpg','/umoja-campsite2.jpg','/umoja-campsite3.jpg','/umoja-campsite4.jpg','/umoja-campsite5.jpg',]
+}, 
+  'judmaier-campsite' : {
+    name: 'Judmaier Campsite',
+    description: 'Budget mountain hut on Mt Kenya',
+    meals: 'All Meals Included',
+    website: 'https://www.umojawomen.or.ke/qinstpckg/index.php',
+    images: ['/judmaier-campsite.jpeg',]
+}, 
+  'shipton-campsite' : {
+    name: 'Shipton Campsite',
+    description: 'Budget camping on Mt Kenyaa',
+    meals: 'All Meals Included',
+    website: '',
+    images: ['/shiptons1.jpg','/shiptons2.jpg','/shiptons3.jpg','/shiptons4.jpg','/shiptons5.jpg','/shiptons6.jpg',]
+},   
 
-  },    
 
+
+
+  },
   // Tour accommodation mapping with normalized day keys
   tourAccommodations: {
     '7-Day-Kenyan-Luxury-Safari': {
@@ -980,7 +1171,68 @@ const ACCOMMODATION_MANAGER = {
       2: 'kruger-adventure-lodge',
       3: 'kruger-adventure-lodge',
       4: 'kruger-adventure-lodge',
+    },
+    '5-day-kojuu-private-explorer-tour' : {
+     1: 'elewana-tarangire-treetops',
+      2: 'warangi-ridge-lodge',
+      3: 'warangi-ridge-lodge',
+      4: 'craters-edge-lodge',
+    },
+    '5-day-premium-luxury-serengeti-gateway-safari' : {
+      1: 'gran-melia-arusha',
+      2: 'nanyukie-lodge'
+    },
+    '4-day-safari-high-end' : {
+      1: 'mawe-mawe-lodge',
+      2: 'nanyukie-lodge',
+      3: 'the-highlands-camp',
+    },
+    '5-day-tanzania-adventure-serengeti-migration-plus-big-five' : {
+       1: 'baobab-mara-luxury-camp',
+      2: 'tanzania-bush-camps',
+      3: 'moyo-tented-camp',
+      4: 'mawe-mawe-lodge',
+    },
+    '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro' : {
+      1: 'ngorongoro-marera-mountain-view-lodge',
+      2: 'into-wild-africa-luxury-safari-camp-serengeti',
+      3: 'ngorongoro-marera-mountain-view-lodge',
+    },
+    '4-day-luxury-samburu-olpejata' : {
+      1: 'sweetwaters-serena-camp',
+      '2-3': 'ashnil-samburu-camp',
+    },
+    '3-day-tarangire-manyara-ngorongoro-crater' : {
+        1: 'hhando-coffee-lodge',
+        2: 'marera-valley-lodge',
+    },
+    '4-day-lodging-tarangire-ngorngoro-materuni' : {
+       1: 'tulia-boutique-hotel-spa',
+      2: 'bougainvillea-safari-lodge',
+      3: 'tulia-boutique-hotel-spa',
+    },
+    '4-day-astonish-mikumi-ruaha-national-park' : {
+      1: 'camp-lilac',
+      2: 'TANAPA-ruaha-bandas',
+      3: 'ruaha-hilltop-lodge',
+    },
+    '4-day-amboseli-tsavo-east-west' : {
+      1: 'penety-amboseli-resort',
+      2: 'ngulia-safari-lodge',
+      3: 'voi-safari-lodge',
+    },
+    '3-day-amboseli-tsavo-east-mombasa' : {
+      1: 'nyati-safari-camp',
+      2: 'red-elephant-safari-lodge',
+    },
+    '3-day-samburu-wildernes-adventure' : {
+      '1-2': 'umoja-campsite'
+    },
+    '3-day-mount-kenya-trek-sirimon-to-chogoria' : {
+       1: 'judmaier-campsite',
+      2: 'shipton-campsite',
     }
+
 
    }
 };
