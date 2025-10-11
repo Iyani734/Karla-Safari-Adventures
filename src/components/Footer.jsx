@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Creating unforgettable African safari experiences for over 15 years. We connect travelers with the wild heart of Africa through responsible tourism and conservation.
+              Creating unforgettable African safari experiences for over 4 years. We connect travelers with the wild heart of Africa through responsible tourism and conservation.
             </p>
 
             {/* Contact Info */}

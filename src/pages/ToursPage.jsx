@@ -30,7 +30,7 @@ const eastAfricaTours = [
     description: "Experience Kenya's iconic national parks, from the rolling plains of Masai Mara to the elephant herds of Amboseli with Kilimanjaro's backdrop, and the flamingos of Lake Nakuru.",
     image: 'Elephants walking majestically in front of Mount Kilimanjaro Amboseli National Park Kenya',
     tags: ['kenya', 'big five', 'family', 'Luxury'],
-    link: 'amboseli.jpeg'
+    link: 'lion25.jpg'
   },
   {
     id: 'tanzania-great-migration',
@@ -38,7 +38,7 @@ const eastAfricaTours = [
     location: 'Tanzania',
     subLocation: 'Serengeti, Ngorongoro, Tarangire',
     duration: '8 Days / 7 Nights',
-    pricePerPerson: 3500,
+    pricePerPerson: 4920,
     rating: 5.0,
     reviews: 438,
     description: "Witness the awe-inspiring Great Wildebeest Migration in the Serengeti, explore the Ngorongoro Crater, and discover Tarangire's elephant herds.",
@@ -74,7 +74,7 @@ const eastAfricaTours = [
     description: "Discover Rwanda's stunning landscapes, trek for gorillas and golden monkeys in Volcanoes National Park, and explore Nyungwe's ancient rainforest for chimpanzees.",
     image: 'Golden monkey perched on a bamboo branch in Volcanoes National Park Rwanda',
     tags: ['rwanda', 'gorillas', 'chimpanzees', 'mid-range', 'scenic'],
-    link: '/gorillaDP.jpg',
+    link: '/gorilla3.webp',
     //https://www.safaribookings.com/day/t89294
   },
   {
@@ -89,7 +89,7 @@ const eastAfricaTours = [
     description: "This luxury safari offers thrilling game drives, Big Five sightings, cultural encounters, scenic landscapes, flamingos, and unforgettable moments across Kenya",
     image: 'Rock-hewn church of St. George in Lalibela Ethiopia',
     tags: ['ethiopia', 'history', 'culture', 'mid-range', 'mountains'],
-    link: '/amboseli5.webp'
+    link: '/lion26.avif'
     //https://www.safaribookings.com/tours/t96525
   },
   {
@@ -149,7 +149,7 @@ const eastAfricaTours = [
     description: "Track mountain gorillas in Bwindi's misty forests, then discover Queen Elizabeth's savannahs and Kazinga Channel, where elephants, hippos, lions, crocodiles, and vibrant birdlife create unforgettable safari",
     image: 'Anse Source d\'Argent beach La Digue Seychelles with granite boulders and turquoise water',
     tags: ['uganda', 'gorillas', 'mid-range', 'adventure', 'wildlife'],
-    link: 'gorilla1.jpg'
+    link: 'gorilla4.jpg'
     //https://www.safaribookings.com/tours/t46454
   },
   {
@@ -208,7 +208,7 @@ const eastAfricaTours = [
     description: "Experience the Masai Mara like never before—luxury camps, breathtaking balloon safaris, thrilling game drives, and authentic Maasai culture await. Discover Africa's iconic wildlife in an unforgettable adventure from Nairobi.",
     image: 'Group on a walking safari in South Luangwa National Park Zambia with armed ranger',
     tags: ['kenya', 'luxury plus', 'adventure', 'wildlife', 'exclusive'],
-    link: '/maasaimara14.webp'
+    link: '/ballon2.jpg'
   },
   {
     id: '10-day-kenyas-wildest-elegance-an-ultra-luxury-safari',
@@ -436,8 +436,8 @@ const eastAfricaTours = [
   //https://www.safaribookings.com/day/t42407
   },
     {
-    id: '5-day-kojuu-private-explorer-tour',
-    title: '5-Day Kojuu Private Explorer Tour - Premium Luxury',
+    id: '5-day-private-explorer-tour',
+    title: '5-Day Private Explorer Tour - Premium Luxury',
     location: 'Tanzania',
     subLocation: 'Arusha,Tarangire NP,Serengeti NP,Ngorongoro Crater',
     duration: '5 Days / 4 Nights',
@@ -447,7 +447,7 @@ const eastAfricaTours = [
     description: "Embark on a breathtaking Tanzanian safari through Tarangire, Serengeti, and Ngorongoro Crater. Witness the Big Five, endless plains, and rich wildlife while enjoying luxury lodges, expert guides, and unforgettable adventures in Africa’s wilderness.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury Plus', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/luxury2.jpeg'
   //https://www.safaribookings.com/tours/t57542
   },
       {
@@ -462,7 +462,7 @@ const eastAfricaTours = [
     description: "Soar above Tanzania on a luxury fly-in safari to the Serengeti. Experience thrilling game drives, a breathtaking sunrise balloon ride, gourmet dining, and elegant lodges — where wilderness adventure meets unmatched comfort and exclusivity.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury Plus', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/lion16.jpg'
   //https://www.safaribookings.com/tours/t99652
   },
     {
@@ -477,7 +477,7 @@ const eastAfricaTours = [
     description: "Discover Tanzania’s beauty with Lake Manyara’s diverse wildlife, the Serengeti’s endless plains, and Ngorongoro’s breathtaking crater. Experience thrilling game drives, luxury lodges, and unforgettable encounters with Africa’s most iconic animals on this extraordinary safari.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury Plus', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/bonfire.jpg'
   //https://www.safaribookings.com/day/t78569
   },
       {
@@ -492,7 +492,7 @@ const eastAfricaTours = [
     description: "Embark on a once-in-a-lifetime safari from Zanzibar to Serengeti, Ngorongoro, and Tarangire—witness the Great Migration, Big Five, and breathtaking landscapes while enjoying luxury camps, expert guides, and unforgettable wildlife encounters.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/lion17.jpg'
   //https://www.safaribookings.com/tours/t95089
   },
   {
@@ -507,7 +507,7 @@ const eastAfricaTours = [
     description: "Discover Tanzania’s wild beauty on a 4-day safari from Arusha—explore Tarangire’s elephants, Serengeti’s endless plains, and Ngorongoro’s breathtaking crater. Luxury stays, thrilling game drives, and unforgettable wildlife moments await.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/wildbeast4.jpg'
   //https://www.safaribookings.com/tours/t59012
   },
    {
@@ -522,7 +522,7 @@ const eastAfricaTours = [
     description: "Embark on a 4-day Kenyan safari from Nairobi to Ol Pejeta and Samburu, where rhinos, elephants, and big cats roam. Experience unique wildlife, cultural encounters, and unforgettable landscapes in luxury comfort",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'Luxury', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/rhino2.jpg'
   //https://www.safaribookings.com/tours/t82177
   },
      {
@@ -537,7 +537,7 @@ const eastAfricaTours = [
     description: "Experience Tanzania’s wild beauty in just 3 days—encounter elephants in Tarangire, the Big Five in Ngorongoro Crater, and tree-climbing lions in Lake Manyara, with comfort and breathtaking landscapes throughout",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'mid-range', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/manyara3.webp'
   //https://www.safaribookings.com/tours/t87289
   },
        {
@@ -552,7 +552,7 @@ const eastAfricaTours = [
     description: "Embark on a 4-day Tanzania adventure—immerse in Arusha’s culture, witness Tarangire’s giant elephants, marvel at Ngorongoro’s breathtaking wildlife, and hike Materuni Waterfalls. Unforgettable experiences, vibrant traditions, and scenic beauty await",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'mid-range', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/zebra13.jpg'
   //https://www.safaribookings.com/tours/t86341
   },
    {
@@ -567,7 +567,7 @@ const eastAfricaTours = [
     description: "Embark on a thrilling 4-day Tanzania safari—ride the SGR to Mikumi, explore Ruaha’s vast wilderness, encounter lions, elephants, wild dogs, and rare antelopes. Remote, authentic, and unforgettable African adventure awaits.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'mid-range', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/giraffe8.jpg'
   //https://www.safaribookings.com/tours/t79765
   },
      {
@@ -582,7 +582,7 @@ const eastAfricaTours = [
     description: "Embark on a 4-day Kenyan safari from Nairobi to Amboseli and Tsavo, where Kilimanjaro views, majestic elephants, legendary lions, and breathtaking landscapes create unforgettable adventures across East Africa’s most iconic parks",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'mid-range', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/zebra15.jpg'
   //https://www.safaribookings.com/tours/t73013
   },
     {
@@ -597,7 +597,7 @@ const eastAfricaTours = [
     description: "Discover Kenya’s magic on a 3-day safari from Nairobi to Amboseli and Tsavo East, then unwind in Mombasa or Diani—majestic elephants, stunning Kilimanjaro views, and a perfect beach escape await",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/lion20.jpg'
   //https://www.safaribookings.com/tours/t27016
   },
     {
@@ -612,7 +612,7 @@ const eastAfricaTours = [
     description: "Venture into Samburu’s wild beauty, where rare species, majestic elephants, and rich Samburu culture await. Experience thrilling game drives, breathtaking landscapes, and unforgettable encounters on this authentic Northern Kenya safari adventure.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/rare2.jpg'
   //https://www.safaribookings.com/tours/t73017
   },
   {
@@ -627,7 +627,7 @@ const eastAfricaTours = [
     description: "Conquer Mount Kenya on an unforgettable trek! Journey through forests, moorlands, and valleys to reach Point Lenana’s sunrise summit, descending via Chogoria’s waterfalls. Adventure, breathtaking views, and memories of a lifetime await.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/hiking5.webp'
   //https://www.safaribookings.com/day/t97133
   },
     {
@@ -642,7 +642,7 @@ const eastAfricaTours = [
     description: "Discover Amboseli’s breathtaking beauty with herds of elephants set against Mount Kilimanjaro. Enjoy thrilling game drives, diverse wildlife, and unforgettable landscapes, creating a truly iconic African safari adventure",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/elephant33.jpg'
   //https://www.safaribookings.com/tours/t46091
   },
       {
@@ -657,7 +657,7 @@ const eastAfricaTours = [
     description: "Discover Tsavo’s red-earth savannahs and diverse wildlife, then experience the iconic Salt Lick Lodge. Thrilling game drives, breathtaking landscapes, and unforgettable encounters make this safari the perfect blend of adventure and comfort.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/elephant34.png'
   //https://www.safaribookings.com/tours/t56617
   },
    {
@@ -672,7 +672,7 @@ const eastAfricaTours = [
     description: "Discover Amboseli’s majestic elephants and Mount Kilimanjaro views, explore Tsavo East’s red-soil wilderness, and end your adventure on Mombasa’s sandy beaches. A perfect blend of wildlife, landscapes, and relaxation awaits you.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/banana.jpg'
   //https://www.safaribookings.com/tours/t10777
   },
      {
@@ -687,7 +687,7 @@ const eastAfricaTours = [
     description: "Discover Tanzania’s wild side with thrilling game drives in Mikumi, a Rufiji River boat safari in Selous, and a guided walking adventure. Wildlife, landscapes, and unforgettable experiences await you.",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/nyerere3.jpg'
   //https://www.safaribookings.com/tours/t61887
   },
        {
@@ -702,7 +702,7 @@ const eastAfricaTours = [
     description: "Embark on a breathtaking Tanzanian safari through Tarangire, Ngorongoro Crater, and Lake Manyara. Encounter elephants, lions, flamingos, and the Big Five while exploring Africa’s most iconic landscapes in comfort and style",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/elephant39.jpg'
   //https://www.safaribookings.com/tours/t88209
   },
     {
@@ -717,7 +717,7 @@ const eastAfricaTours = [
     description: "Experience Tanzania’s Ruaha National Park with thrilling game drives, walking safaris along the Great Ruaha River, and close encounters with elephants, lions, giraffes, and diverse wildlife in stunning natural landscapes",
     image: 'Murchison Falls cascading down the Nile River in Uganda',
     tags: ['Tanzania', 'budget', 'solo'],
-    link: '/kruger3.jpg'
+    link: '/lion21.webp'
   //https://www.safaribookings.com/tours/t32589
   },
 ];

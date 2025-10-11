@@ -13,25 +13,14 @@ import ImagePopup from '../components/ImagePopup';
 // ========================================
 const IMAGE_MANAGER = {
   tourThumbnails: {
-    'custom-trip': 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop',
-    '7-Day-Kenyan-Luxury-Safari': '',
-    'tanzania-great-migration': 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=600&h=400&fit=crop',
-    'zambia-walking-safari': 'https://images.unsplash.com/photo-1553009175-a94e8d87a834?w=600&h=400&fit=crop',
-    'botswana-delta-chobe': 'https://images.unsplash.com/photo-1551449892-3ef6e69e3592?w=600&h=400&fit=crop',
-    'uganda-gorilla-trek': 'https://images.unsplash.com/photo-1572541164741-8549de64f0b6?w=600&h=400&fit=crop',
-    'rwanda-primates-volcanoes': 'https://images.unsplash.com/photo-1549366021-9f761d040a94?w=600&h=400&fit=crop',
-    'namibia-desert-wildlife': 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop'
-  },
-
-  tourHeroImages: {
-    'custom-trip': 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&h=800&fit=crop',
+   'custom-trip': 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&h=800&fit=crop',
     '7-Day-Kenyan-Luxury-Safari': '/Elephants_luxury.jpg',
-    'tanzania-great-migration': '/wildbeast.jpg',
+    'tanzania-great-migration': '/giraffe16.jpg',
     'Uganda-Ultimate-Luxury-Safari': '/byeuganda.jpg', 
     'rwanda-mountain-gorillas': '/gorillaDP2.jpg',
-    '10-Day-Kenya-Safari-ol-Pejeta-Samburu-Nakuru-Mara-Amboseli': '/amboseli5.webp',
+    '10-Day-Kenya-Safari-ol-Pejeta-Samburu-Nakuru-Mara-Amboseli': '/lion27.jpg',
     '3-day-mara-fly-in-fly-out': '/maasaimara10.jpg',
-    'budget-7-Day-Masai-Mara-Nakuru-Naivasha-Amboseli': '/amboseli4.jpg',
+    'budget-7-Day-Masai-Mara-Nakuru-Naivasha-Amboseli': '/elephant41.jpg',
     '6-day-serengeti-budget-safari': '/serengeti-budget2.jpg',
     '4-day-gorilla-tracking-and-queen-elizabeth-national-park': '/chipanzee1.jpg',
     '3-day-chimpanzee-trekking-canopy-and-lake-kivu-adventure': '/canopy2.jpg',
@@ -46,13 +35,82 @@ const IMAGE_MANAGER = {
     '3-day-luxury-honeymoon-safari-to-serengeti-ngorongoro': '/honeymoon9.webp',
     '6-day-circuit-safari-masai-mara-lake-nakuru-amboseli': '/lakeNakuru13.avif',
     '4-day-masai-mara-nakuru': '/leopard5.jpg',
-    '3-day-adventure-in-masai-mara': '/lion8.jpg',
-    '7-day-masai-mara-nakuru-naivasha-amboseli' : '/lion9.jpg',
-    '8-day-camping-safari-with-cultural-nature-experiences' : '/camping7.webp',
+    '3-day-adventure-in-masai-mara': '/wildbeast8.jpg',
+    '7-day-masai-mara-nakuru-naivasha-amboseli' : '/lakeNakuru17.jpg',
+    '8-day-camping-safari-with-cultural-nature-experiences' : '/culture12.jpg',
     '3-Day-Ngorongoro-Kilimanjaro-Hike-Materuni-Waterfalls' : '/ngorongoro10.jpg',
     '5-Day-Safari-to-Selous-Nyerere-Mikumi-Maasai-Village' : '/maasaiVillage5.webp',
     '3-Day-Murchison-Falls-NP-Ziwa-and-Budongo-Safari' : '/murchson.jpeg',
-    '5-Day-Kruger-Adventure-Safari' : '/kruger4.webp'
+    '5-Day-Kruger-Adventure-Safari' : '/cheatah.jpg',
+    '5-day-private-explorer-tour' : '/luxury.jpg',
+    '5-day-premium-luxury-serengeti-gateway-safari' : '/zebra9.jpg',
+    '4-day-safari-high-end' : '/wildbeast3.jpg',
+    '5-day-tanzania-adventure-serengeti-migration-plus-big-five': '/zebra10.jpg',
+    '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro' : '/zebra11.webp',
+    '4-day-luxury-samburu-olpejata' : '/culture11.webp',
+    '3-day-tarangire-manyara-ngorongoro-crater' : '/zebra14.jpg',
+    '4-day-lodging-tarangire-ngorngoro-materuni' : '/elephant23.webp',
+    '4-day-astonish-mikumi-ruaha-national-park' : '/giraffe9.jpg',
+    '3-day-amboseli-tsavo-east-mombasa' : '/elephant25.avif',
+    '3-day-samburu-wildernes-adventure' : '/giraffe11.jpg',
+    '3-day-mount-kenya-trek-sirimon-to-chogoria' : '/hiking8.jpg',
+    '3-day-the-amboseli-budget-safari' : '/elephant32.jpg',
+    '3-day-tsavo-east-taita-safari-sentrim-salt-lick' : '/elephant38.jpg',
+    '4-day-nairobi-amboseli-tsavo-east-mombasa-diani-watamu' : '/diani.jpg',
+    '4-day-mikumi-nyerere-unforgettable-adventures' : '/giraffe15.avif',
+    '3-day-budget-safari-tarangire-ngorongoro-manyara' : '/lion22.png',
+    '4-day-safari-to-ruaha-national-park-tanzania' : '/lion24.jpeg',
+    '4-day-amboseli-tsavo-east-west' : '/giraffe23.jpg' },
+
+  tourHeroImages: {
+    'custom-trip': 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&h=800&fit=crop',
+    '7-Day-Kenyan-Luxury-Safari': '/Elephants_luxury.jpg',
+    'tanzania-great-migration': '/giraffe16.jpg',
+    'Uganda-Ultimate-Luxury-Safari': '/byeuganda.jpg', 
+    'rwanda-mountain-gorillas': '/gorillaDP2.jpg',
+    '10-Day-Kenya-Safari-ol-Pejeta-Samburu-Nakuru-Mara-Amboseli': '/lion27.jpg',
+    '3-day-mara-fly-in-fly-out': '/maasaimara10.jpg',
+    'budget-7-Day-Masai-Mara-Nakuru-Naivasha-Amboseli': '/elephant41.jpg',
+    '6-day-serengeti-budget-safari': '/serengeti-budget2.jpg',
+    '4-day-gorilla-tracking-and-queen-elizabeth-national-park': '/chipanzee1.jpg',
+    '3-day-chimpanzee-trekking-canopy-and-lake-kivu-adventure': '/canopy2.jpg',
+    '3-Day-samburu-flying-safari-tour': '/samburu1.webp',
+    '12-day-vacation-escape-to-kenya-coast': '/wasini2.webp',
+    '4-day-safari-to-awe-inspiring-landscapes-of-mara-in-jeep': '/maasaimara16.webp',
+    '10-day-kenyas-wildest-elegance-an-ultra-luxury-safari': '/solio1.jpg',
+    '12-day-luxury-honeymoon-safari-and-beach-holiday': '/honeymoon5.webp',
+    '3-day-luxury-safari-in-the-great-masai-mara-reserve': '/lions.webp',
+    '8-day-unmatched-elegance-crown-jewels-of-kenya-safari' : '/zebra4.avif',
+    '7-day-luxury-safari-kruger-national-park-south-africa': '/sunset3.jpg',
+    '3-day-luxury-honeymoon-safari-to-serengeti-ngorongoro': '/honeymoon9.webp',
+    '6-day-circuit-safari-masai-mara-lake-nakuru-amboseli': '/lakeNakuru13.avif',
+    '4-day-masai-mara-nakuru': '/leopard5.jpg',
+    '3-day-adventure-in-masai-mara': '/wildbeast8.jpg',
+    '7-day-masai-mara-nakuru-naivasha-amboseli' : '/lakeNakuru17.jpg',
+    '8-day-camping-safari-with-cultural-nature-experiences' : '/culture12.jpg',
+    '3-Day-Ngorongoro-Kilimanjaro-Hike-Materuni-Waterfalls' : '/ngorongoro10.jpg',
+    '5-Day-Safari-to-Selous-Nyerere-Mikumi-Maasai-Village' : '/maasaiVillage5.webp',
+    '3-Day-Murchison-Falls-NP-Ziwa-and-Budongo-Safari' : '/murchson.jpeg',
+    '5-Day-Kruger-Adventure-Safari' : '/cheatah.jpg',
+    '5-day-private-explorer-tour' : '/luxury.jpg',
+    '5-day-premium-luxury-serengeti-gateway-safari' : '/zebra9.jpg',
+    '4-day-safari-high-end' : '/wildbeast3.jpg',
+    '5-day-tanzania-adventure-serengeti-migration-plus-big-five': '/zebra10.jpg',
+    '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro' : '/zebra11.webp',
+    '4-day-luxury-samburu-olpejata' : '/culture11.webp',
+    '3-day-tarangire-manyara-ngorongoro-crater' : '/zebra14.jpg',
+    '4-day-lodging-tarangire-ngorngoro-materuni' : '/elephant23.webp',
+    '4-day-astonish-mikumi-ruaha-national-park' : '/giraffe9.jpg',
+    '3-day-amboseli-tsavo-east-mombasa' : '/elephant25.avif',
+    '3-day-samburu-wildernes-adventure' : '/giraffe11.jpg',
+    '3-day-mount-kenya-trek-sirimon-to-chogoria' : '/hiking8.jpg',
+    '3-day-the-amboseli-budget-safari' : '/elephant32.jpg',
+    '3-day-tsavo-east-taita-safari-sentrim-salt-lick' : '/elephant38.jpg',
+    '4-day-nairobi-amboseli-tsavo-east-mombasa-diani-watamu' : '/diani.jpg',
+    '4-day-mikumi-nyerere-unforgettable-adventures' : '/giraffe15.avif',
+    '3-day-budget-safari-tarangire-ngorongoro-manyara' : '/lion22.png',
+    '4-day-safari-to-ruaha-national-park-tanzania' : '/lion24.jpeg',
+    '4-day-amboseli-tsavo-east-west' : '/giraffe23.jpg'
   },
 
   dailyItineraryImages: {
@@ -266,20 +324,127 @@ const IMAGE_MANAGER = {
       5: '/maasaiVillage3.jpg',
     },
     '3-Day-Murchison-Falls-NP-Ziwa-and-Budongo-Safari' : {
- 1: '/murchisonFall.jpg',
+      1: '/murchisonFall.jpg',
       2: '/murchisonFall2.jpg',
       3: '/gorilla2.webp',
     },
     '5-Day-Kruger-Adventure-Safari' : {
-  1: '/kruger1.jpg',
+     1: '/kruger1.jpg',
      2: '/kruger2.jpeg',
       3: '/panorama2..jpg',
       4: '/lion5.jpg',
       5: '/sunrise.webp'
-
-    }
-
-
+    },
+    '5-day-private-explorer-tour' : {
+      1: '/Tarangire4.webp',
+      2: '/serengeti1.jpg',
+      3: '/lion10.jpg ',
+      4: '/ngorongoro11.jpg',
+      5: '/ngorongoro12.jpg'
+    },
+        '5-day-premium-luxury-serengeti-gateway-safari' : {
+      1: '/kilimanjaroAirport1.jpg',
+      2: '/plane4.jpg',
+      3: '/baloon1.jpg ',
+      4: '/sundowner2.jpg',
+      5: '/lion11.jpg'
+    },
+    '4-day-safari-high-end' : {
+      1: '/lakeManyara.jpg',
+      2: '/serengeti10.webp',
+      3: '/serengeti11.webp ',
+      4: '/ngorongoro13.jpg',
+    },
+    '5-day-tanzania-adventure-serengeti-migration-plus-big-five' : {
+      1: '/plane5.jpg',
+      2: '/migration.webp',
+      3: '/serengeti12.webp ',
+      4: '/serengeti13.jpeg',
+      5: '/tarangire5.jpg',      
+    },
+    '4-day-luxury-tanzania-safari-tarangire-serengeti-ngorongoro' : {
+      1: '/tarangire6.jpg',
+      2: '/serengeti14.png',
+      3: '/leopard.jpg ',
+      4: '/buffalo2.jpg',
+    },
+    '4-day-luxury-samburu-olpejata': {
+      1: '/zebra5.jpg',
+      2: '/giraffe4.jpg',
+      3: '/longNeck.jpg ',
+      4: '/culture9.jpg',
+    },
+    '3-day-tarangire-manyara-ngorongoro-crater': {
+      1: '/elephant4.jpg',
+      2: '/zebra6.jpg',
+      3: '/zebra7.jpg ',
+    },
+    '4-day-lodging-tarangire-ngorngoro-materuni': {
+      1: '/maasai.jpg',
+      2: '/lunch.avif',
+      3: '/blackRhino1.jpg ',
+      4: '/materuniFalls2.jpg',
+    },
+       '4-day-astonish-mikumi-ruaha-national-park' : {
+      1: '/mikumi3.jpg',
+      2: '/buffalo3.jpg',
+      3: '/elephant5.jpg ',
+      4: '/byebye2.jpg',
+    },
+     '4-day-amboseli-tsavo-east-west' : {
+      1: '/elephant6.jpg',
+      2: '/rhino.jpg',
+      3: '/buffalo4.jpg ',
+      4: '/elephant7.jpg',
+    },
+      '3-day-amboseli-tsavo-east-mombasa' : {
+      1: '/elephant8.jpg',
+      2: '/elephant9.webp',
+      3: '/leopard6.webp ',
+    },
+     '3-day-samburu-wildernes-adventure' : {
+      1: '/rare.jpg',
+      2: '/elephant10.avif',
+      3: '/culture10.jpg ',
+    },
+         '3-day-mount-kenya-trek-sirimon-to-chogoria' : {
+      1: '/hiking.jpeg',
+      2: '/hiking2.jpg',
+      3: '/hiking3.jpg ',
+    },
+     '3-day-the-amboseli-budget-safari' : {
+      1: '/elephant11.jpg',
+      2: '/wildLunch.jpg',
+      3: '/lion12.jpg ',
+    },
+         '3-day-tsavo-east-taita-safari-sentrim-salt-lick' : {
+      1: '/elephant12.avif',
+      2: '/zebra8.webp',
+      3: '/elephant13.jpeg ',
+    },
+     '4-day-nairobi-amboseli-tsavo-east-mombasa-diani-watamu' : {
+      1: '/elephant14.jpg',
+      2: '/chetah.jpg',
+      3: '/elephant15.jpg',
+      4: '/lion13.jpg',
+    },
+         '4-day-mikumi-nyerere-unforgettable-adventures' : {
+      1: '/elephant16.png',
+      2: '/elephant17.jpeg',
+      3: '/giraffe5.jpg',
+      4: '/elephant18.jpg',
+    },
+    '3-day-budget-safari-tarangire-ngorongoro-manyara' : {
+      1: '/tarangire7.jpg',
+      2: '/ngorongoro14.jpg',
+      3: '/lion14.jpg',
+    },
+      '4-day-safari-to-ruaha-national-park-tanzania' : {
+      1: '/ruaha1.jpg',
+      2: '/wildLunch2.webp',
+      3: '/elephant19.jpg',
+      4: '/ruaha2.jpg',
+    },
   },
 
   vehicleImages: [
@@ -803,7 +968,7 @@ const ACCOMMODATION_MANAGER = {
     description: 'Luxury tented camp inside Central Serengeti NP',
     meals: 'All Meals Included',
     website: 'https://thewildernesscollection.com/warangi-ridge/',
-     images: ['/warangi1.jpg','/warangi2.jpg','/warangi3.jpg','/warangi4.jpg','/warangi5.jpg','/warangi6.jpg','/warangi7.jpg','/warangi8.jpg','/warangi9.jpg','/warangi10.jpg']
+     images: ['/warangi1.jpg','/warangi2.jpg','/warangi3.jpg','/warangi4.png','/warangi5.jpg','/warangi6.jpg','/warangi7.jpg','/warangi8.jpg','/warangi9.jpg','/warangi10.jpg']
   },
    'craters-edge-lodge': {
     name: 'Craters Edge Lodge',
@@ -979,7 +1144,43 @@ const ACCOMMODATION_MANAGER = {
     meals: 'All Meals Included',
     website: '',
     images: ['/shiptons1.jpg','/shiptons2.jpg','/shiptons3.jpg','/shiptons4.jpg','/shiptons5.jpg','/shiptons6.jpg',]
+}, 
+  'lion-hill-lodge' : {
+    name: 'Lion Hill Lodge',
+    description: 'Budget lodge less than 1hr drive from Tsavo East NP',
+    meals: 'All Meals Included',
+    website: 'https://lionhilllodge.com/',
+    images: ['/lionHillLodge1.jpg','/lionHillLodge2.jpg','/lionHillLodge3.png','/lionHillLodge4.png','/lionHillLodge5.png','/lionHillLodge6.png','/lionHillLodge7.png','/lionHillLodge8.png','/lionHillLodge9.png','/lionHillLodge10.png',]
+}, 
+  'salt-lick-safari-lodge' : {
+    name: 'Salt Lick Safari Lodge',
+    description: 'Luxury lodge inside Taita Hills WS',
+    meals: 'All Meals Included',
+    website: 'https://saltlicksafarilodge.com/',
+    images: ['/saltLickSafariLodge1.jpg','/saltLickSafariLodge2.jpg','/saltLickSafariLodge3.jpg','/saltLickSafariLodge4.jpg','/saltLickSafariLodge5.jpg','/saltLickSafariLodge6.jpg','/saltLickSafariLodge7.jpg','/saltLickSafariLodge8.jpg',]
+},  
+  'boma-simba-safari-lodge' : {
+    name: 'Boma Simba Safari Lodge',
+    description: 'Budget lodge less than 1hr drive from Tsavo East NP',
+    meals: 'All Meals Included',
+    website: 'https://bomasimbalodge.com/',
+    images: ['/bombasimbasafarilodge1.png','/bombasimbasafarilodge2.png','/bombasimbasafarilodge3.png','/bombasimbasafarilodge4.png','/bombasimbasafarilodge5.png','/bombasimbasafarilodge6.png','/bombasimbasafarilodge7.png','/bombasimbasafarilodge8.png',]
 },   
+  'Mloka Safari Lodge' : {
+    name: 'Mloka Safari Lodge',
+    description: 'Budget lodge less than 1hr drive from Tsavo East NP',
+    meals: 'All Meals Included',
+    website: 'https://www.mlokasafarilodge.com/',
+    images: ['/mlokaSafariLodge1.jpg','/mlokaSafariLodge2.jpeg','/mlokaSafariLodge3.jpeg','/mlokaSafariLodge4.jpeg','/mlokaSafariLodge5.jpeg','/mlokaSafariLodge6.jpeg','/mlokaSafariLodge7.jpeg','/mlokaSafariLodge8.jpeg','/mlokaSafariLodge9.jpeg','/mlokaSafariLodge10.jpeg','/mlokaSafariLodge11.jpeg','/mlokaSafariLodge12.jpeg','/mlokaSafariLodge13.jpeg','/mlokaSafariLodge14.jpeg','/mlokaSafariLodge15.jpeg','/mlokaSafariLodge16.jpeg',]
+}, 
+ 'TANAPA-ruaha-cottages' : {
+    name: 'TANAPA-Ruaha-Cottages',
+    description: 'Budget cottage inside Ruaha NP',
+    meals: 'All Meals Included',
+    website: '',
+    images: ['/tanapaRuahaCottages1.jpeg','/tanapaRuahaCottages2.jpeg',]
+},    
+  
 
 
 
@@ -1172,7 +1373,7 @@ const ACCOMMODATION_MANAGER = {
       3: 'kruger-adventure-lodge',
       4: 'kruger-adventure-lodge',
     },
-    '5-day-kojuu-private-explorer-tour' : {
+    '5-day-private-explorer-tour' : {
      1: 'elewana-tarangire-treetops',
       2: 'warangi-ridge-lodge',
       3: 'warangi-ridge-lodge',
@@ -1180,7 +1381,9 @@ const ACCOMMODATION_MANAGER = {
     },
     '5-day-premium-luxury-serengeti-gateway-safari' : {
       1: 'gran-melia-arusha',
-      2: 'nanyukie-lodge'
+      2: 'nanyukie-lodge',
+      3: 'nanyukie-lodge',
+      4: 'nanyukie-lodge',
     },
     '4-day-safari-high-end' : {
       1: 'mawe-mawe-lodge',
@@ -1231,7 +1434,30 @@ const ACCOMMODATION_MANAGER = {
     '3-day-mount-kenya-trek-sirimon-to-chogoria' : {
        1: 'judmaier-campsite',
       2: 'shipton-campsite',
+    },
+    '3-day-the-amboseli-budget-safari': {
+      '1-2': 'nyati-safari-camp'
+    },
+       '3-day-tsavo-east-taita-safari-sentrim-salt-lick': {
+      1: 'lion-hill-lodge',
+      2: 'salt-lick-safari-lodge'
+    },
+    '4-day-nairobi-amboseli-tsavo-east-mombasa-diani-watamu': {
+      '1-2': 'nyati-safari-camp',
+      3: 'boma-simba-safari-lodge',
+    },
+    '4-day-mikumi-nyerere-unforgettable-adventures': {
+      1: 'camp-bastian-mikumi',
+      '2-3': 'Mloka Safari Lodge'
+    },
+       '3-day-budget-safari-tarangire-ngorongoro-manyara': {
+      1: 'fig-lodge',
+      2: 'fig-lodge'
+    },
+    '4-day-safari-to-ruaha-national-park-tanzania': {
+      '1-3': 'TANAPA-ruaha-cottages',
     }
+
 
 
    }
@@ -1997,11 +2223,11 @@ The Masai Mara is renowned for the Great Wildebeest Migration, the Big Five, and
       'Early morning and late afternoon game drives for optimal wildlife viewing.',
      
     ],
-    nextTrip: 'tanzania-great-migration',
-    prevTrip: 'custom-trip', 
+    nextTrip: '4-Day Luxury Samburu NR and Ol Pejeta Conservancy',
+    prevTrip: 'Tanzania Great Migration', 
     suggestedTrips: [
-      { id: 'tanzania-great-migration', title: 'Tanzania Great Migration', duration: '8 Days', image: 'Wildebeest migration crossing Mara River in Serengeti Tanzania', pricePerPerson: 4700, location: 'Tanzania' },
-      { id: 'uganda-gorilla-trek', title: 'Uganda Gorilla & Wildlife Trek', duration: '7 Days', image: 'Close-up portrait of a silverback mountain gorilla in Bwindi Forest Uganda', pricePerPerson: 4200, location: 'Uganda' }
+      { id: '4-day-luxury-samburu-olpejata', title: '4-Day Luxury Samburu NR and Ol Pejeta Conservancy', duration: '4 Days', image: '/rhino2.jpg', pricePerPerson: '2,580', location: 'Kenya' },
+      { id: 'tanzania-great-migration', title: 'Tanzania Great Migration', duration: '8 Days', image: 'wildbeast.jpg', pricePerPerson: 4920, location: 'Tanzania' }
     ]
   },
     {
@@ -2016,7 +2242,7 @@ The Masai Mara is renowned for the Great Wildebeest Migration, the Big Five, and
     image: 'Massive herd of wildebeest migrating across the Serengeti plains Tanzania',
     tags: ['tanzania', 'migration', 'wildlife', 'luxury', 'crater'],
     bestMonths: ['Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov'],
-    budgetPlaceholder: 4500,
+    budgetPlaceholder: 4920,
     
     // OVERVIEW CONTENT
     overviewContent: {
@@ -2114,7 +2340,7 @@ There is the possibility to downgrade or upgrade your accommodation level.`, ima
         { day: '5-6', location: 'Serengeti National Park', nights: 2, hotel: 'Serengeti Migration Camp', activity: `On these two incredible days, you will be driven across remote locations within the vast Serengeti plains in pursue of the Great Migration. The areas you visit depend on the time of the year and could be as far as the remote North of the Serengeti near the border with Kenya, or could be in the South (Ndutu Area) or even in the Western part of the park.`, image: 'Famous tree-climbing lions lounging in Lake Manyara National Park', mainDestination: 'Central Serengeti National Park' },
         { day: 7, location: 'Flying Out of The Serengeti', nights: 0, hotel: null, activity: `On this day, we suggest a very early wake-up in order to do an early morning game drive (when the animals are more active) and see one of the best sunrises you'll ever witness. It's really one of the most beautiful experiences to have. After the game drive, we will return to the camp for a rewarding brunch. Afterward, we'll proceed to the airstrip for your flight back to Arusha, or whatever your next amazing destination might be (i.e. Zanzibar). Alternatively, instead of this early morning game drive, you may choose to stay at the camp for a bit of relaxation.`, image: 'Safari vehicle driving towards a dramatic sunset in Tanzania', mainDestination: 'Central Serengeti National Park' },
     ],
-    whatToExpected: [
+    whatToExpect: [
       'The chance to witness the Great Wildebeest Migration (timing dependent).',
       'Exceptional Big Five sightings in Serengeti and Ngorongoro Crater.', 
       'Accommodation in premium lodges and tented camps with spectacular views.',
@@ -2122,11 +2348,11 @@ There is the possibility to downgrade or upgrade your accommodation level.`, ima
       'Expert driver-guides providing insights into wildlife and ecology.',
       'Stunning photographic opportunities at every turn.'
     ],
-    nextTrip: 'uganda-gorilla-trek',
-    prevTrip: 'kenya-classic',
+    nextTrip: '7-Day Kenyan Luxury Safari',
+    prevTrip: '10-Day Uganda Ultimate Luxury Safari',
     suggestedTrips: [
-      { id: 'kenya-classic', title: 'Kenya Classic Safari', duration: '10 Days', image: 'Elephants with Mount Kilimanjaro background in Amboseli Kenya', pricePerPerson: 2950, location: 'Kenya' },
-      { id: 'rwanda-primates-volcanoes', title: 'Rwanda Primates & Volcanoes', duration: '9 Days', image: 'Golden monkey perched on a bamboo branch in Volcanoes NP Rwanda', pricePerPerson: 4800, location: 'Rwanda' }
+       { id: '7-Day-Kenyan-Luxury-Safari', title: '7-Day Kenyan Luxury Safari', duration: '7 Days', image: 'lion25.jpg', pricePerPerson: '2,950', location: 'Kenya' },
+      { id: 'Uganda-Ultimate-Luxury-Safari', title: '10-Day Uganda Ultimate Luxury Safari', duration: '10 Days', image: '/uganda.jpg', pricePerPerson: '7,200', location: 'Kenya' },    
     ]
   },
   {
@@ -6107,8 +6333,8 @@ whatToExpect:[
     ]
   },
     {
-    id: '5-day-kojuu-private-explorer-tour',
-    title: `5-Day Kojuu Private Explorer Tour - Premium Luxury`,
+    id: '5-day-private-explorer-tour',
+    title: '5-Day Private Explorer Tour - Premium Luxury',
     location: 'Tanzania',
     duration: '5 Days / 4 Nights',
     pricePerPerson: 6550,
@@ -6233,7 +6459,7 @@ inclusionsContent: {
     },
     itinerary: [
 { day: 1, location: 'Game Drives in Tarangire National Park', mainDestination: 'Tarangire National Park', nights: '1', hotel: `Elewana Tarangire Treetops`, activity: `You will be picked up from your hotel in Arusha or from Arusha Airport if arriving by morning flight. From there, enjoy a scenic 2-hour drive to Tarangire National Park, located 120 km away in Tanzania’s Northern Circuit. Though the sixth largest park, Tarangire offers incredible wildlife and is known for excellent year-round birdwatching. Explore vast savannahs, ancient baobabs, and spot elephants, lions, leopards, giraffes, and many more. Your expert guide will share insights about the diverse wildlife and smaller creatures. As the afternoon ends, head to your tented lodge for relaxation, dinner, and an authentic overnight safari experience.`, image: 'Maasai Mara' },
-{ day: 2, location: 'Game Drives in Serengeti National Park', mainDestination: 'Serengeti National Park', nights: '1', hotel: `Warangi Ridge Lodge`, activity: `After breakfast, your Kojuu Safaris driver-guide and chef will pick you up and drive you to Serengeti National Park via the Ngorongoro Conservation Area, with game viewing along the way. The Serengeti is an immense and wild park, spanning nearly 15,000 sq km. Known as “the endless plains” by the nomadic Maasai, it offers incredible wildlife sightings. Home to the Big Five—lion, leopard, elephant, buffalo, and black rhino—it’s also famous for the annual migration and stunning landscapes. After your game drive, you’ll head to your lodge inside the park for relaxation, dinner, and overnight stay.`, image: 'Maasai Mara' },
+{ day: 2, location: 'Game Drives in Serengeti National Park', mainDestination: 'Serengeti National Park', nights: '1', hotel: `Warangi Ridge Lodge`, activity: `After breakfast, your  driver-guide and chef will pick you up and drive you to Serengeti National Park via the Ngorongoro Conservation Area, with game viewing along the way. The Serengeti is an immense and wild park, spanning nearly 15,000 sq km. Known as “the endless plains” by the nomadic Maasai, it offers incredible wildlife sightings. Home to the Big Five—lion, leopard, elephant, buffalo, and black rhino—it’s also famous for the annual migration and stunning landscapes. After your game drive, you’ll head to your lodge inside the park for relaxation, dinner, and overnight stay.`, image: 'Maasai Mara' },
 { day: 3, location: 'Game Drives in Serengeti National Park', mainDestination: 'Serengeti National Park', nights: '1', hotel: `Warangi Ridge Lodge`, activity: `Awakened by the sounds of Africa, you’ll freshen up and head to the main area for breakfast. Afterward, your driver-guide will pick you up for a full-day game drive in the Serengeti. If you love wildlife, this is the perfect place. Home to around 3,000 lions—real-life Mufasa, Nala, Simba, and Scar—these majestic cats are often easy to spot as they lounge for up to 20 hours a day. You’ll also see bush elephants, Cape buffaloes, and a variety of birds like the Kori bustard and Fischer’s lovebird. Later, return to your lodge for relaxation, dinner, and overnight stay.`, image: 'Maasai Mara' },
 { day: 4, location: 'Game Drive in Ngorongoro Crater', mainDestination: 'Ngorongoro Crater', nights: '1', hotel: `Craters Edge Lodge`, activity: `After breakfast, before leaving the Serengeti, you’ll enjoy one last morning game drive in this incredible park. Today, you’ll venture deeper into the world-famous Serengeti, soaking in its vast landscapes and abundant wildlife. After lunch, you’ll begin your journey to Ngorongoro, where you’ll relax at your camp, enjoy dinner, and spend the night. Tomorrow, the awe-inspiring wonder of the Ngorongoro Crater awaits you.`, image: 'Maasai Mara' },
 { day: 5, location: 'Game Drives in Ngorongoro Crater', mainDestination: 'Ngorongoro Crater', nights: '', hotel: ``, activity: `Today, you will journey to the Ngorongoro Crater, often called the “8th Wonder of the World,” for a full-day game drive. This well-preserved volcanic caldera, located 190 km from Arusha, is known as “Africa’s Garden of Eden” and serves as a sanctuary for a diverse range of wildlife. The crater’s lush grasslands, forests, and swamps support over 25,000 large mammals. Here, you may spot leopards, lions, black rhinos, hyenas, zebras, waterbucks, baboons, and more. After your game drive, you will ascend from the crater and you will be transfer to Kilimanjaro Airport for your onward flights.`, image: 'Maasai Mara' },
@@ -7023,7 +7249,7 @@ whatToExpect:[
     ]
   },
     {
-    id: '3-Day Tarangire Manyara & Ngorongoro Crater',
+    id: '3-day-tarangire-manyara-ngorongoro-crater',
     title: `3-Day Tarangire Manyara & Ngorongoro Crater`,
     location: 'Tanzania',
     duration: '3 Days / 2 Nights',
@@ -7908,7 +8134,7 @@ Your accommodation and meals will be at Umoja Camp.`, image: 'Maasai Mara' },
 { day: 2, location: 'Full-Day Game Drive in Samburu National Reserve', mainDestination: 'Samburu National Reserve', nights: '1', hotel: `Umoja Campsite`, activity: `After an early morning breakfast, you'll proceed for a full-day game drive at Samburu National Reserve with a picnic lunch. Still, you will enjoy the wilderness safari like Samburu. You'll go back to the camp where you will be served a delicious Kenyan dinner.
 
 You will go back for dinner and an overnight stay at Umoja Camp.`, image: 'Maasai Mara' },
-{ day: 3, location: 'Depart to Nairobi', mainDestination: 'Nairobi (City)', nights: '1', hotel: ``, activity: `Nairobi (City)`, image: 'Maasai Mara' },
+{ day: 3, location: 'Depart to Nairobi', mainDestination: 'Nairobi (City)', nights: '1', hotel: ``, activity: `After an early morning breakfast, you will have an optional activity of visiting the Samburu village or having a game drive en route as you proceed back to Nairobi for departure. Lunch will be packed from the hotel. On your way, you can have a stopover for a break before proceeding to Nairobi.`, image: 'Maasai Mara' },
  ],
 whatToExpect:[
    "Begin your journey from Nairobi to Samburu National Reserve, a semi-arid wilderness in Northern Kenya renowned for its rugged landscapes and unique wildlife.",  
@@ -8202,7 +8428,7 @@ inclusionsContent: {
       additionalAccommodation: "Additional accommodation before and at the end of the tour can be arranged for an extra cost"
     },
     itinerary: [
-{ day: 1, location: 'Nairobi-Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `On your first day, an Antonio Safaris representative at the Jomo Kenyatta International Airport (JKIA) or your Nairobi Hotel will meet you with a warmly welcome. You will then board your awaiting vehicle (4x4 Pop-up Roof Safari Land Cruiser) and depart for Amboseli. Arrive at Amboseli in time for check-in and lunch, after which you will proceed for an afternoon Game Drive in the Park.
+{ day: 1, location: 'Nairobi-Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `On your first day, our  representative at the Jomo Kenyatta International Airport (JKIA) or your Nairobi Hotel will meet you with a warmly welcome. You will then board your awaiting vehicle (4x4 Pop-up Roof Safari Land Cruiser) and depart for Amboseli. Arrive at Amboseli in time for check-in and lunch, after which you will proceed for an afternoon Game Drive in the Park.
 Amboseli is home to the African Elephants, the gentle giants of the wild, and is host to iconic wildlife including four of the Big Five Wildlife species. The park offers an up-close encounter with herds of big-tusked African elephants that flock the park. Across the park’s open savannah grasslands, catch a glimpse of the Mount Kilimanjaro, Africa’s highest summit, which towers over the park across the border.`, image: 'Maasai Mara' },
 { day: 2, location: 'Amboseli National Park', mainDestination: 'Amboseli National Park', nights: '1', hotel: `Nyati Safari Camp`, activity: `The entire day will be spent in Amboseli, with brief glimpses of Mount Kilimanjaro when the clouds part. After breakfast, you can choose to go on an afternoon game drive, or you can go on a full-day game drive with a packed lunch from 8 am to 4 pm. Your overnight accommodations and all meals are at Nyati Safari Camp.`, image: 'Maasai Mara' },
 { day: 3, location: 'Amboseli National Park- Nairobi', mainDestination: 'Nairobi (City)', nights: '', hotel: ``, activity: `After a leisurely breakfast, you will say your goodbyes to the Amboseli and drive back to Nairobi.
@@ -9018,6 +9244,7 @@ const DynamicSidebarContent = ({ contentHeight, activeTab, tour }) => {
         contentSections.push('wildlife-behavior');
         contentSections.push('tips');
         contentSections.push('stats');
+        contentSections.push('call-to-action');
         setVisibleContent(contentSections);
         return;
       }
@@ -9027,12 +9254,12 @@ const DynamicSidebarContent = ({ contentHeight, activeTab, tour }) => {
         if (availableHeight > 400) {
           contentSections.push('reviews');
         }
-        if (availableHeight > 600) {
-          contentSections.push('tips');
-        }
-        if (availableHeight > 800) {
-          contentSections.push('stats');
-        }
+        // if (availableHeight > 600) {
+        //   contentSections.push('tips');
+        // }
+        // if (availableHeight > 800) {
+        //   contentSections.push('stats');
+        // }
       }
       
       setVisibleContent(contentSections);
@@ -9040,6 +9267,34 @@ const DynamicSidebarContent = ({ contentHeight, activeTab, tour }) => {
 
     calculateVisibleContent();
   }, [contentHeight, activeTab]);
+ {/* Simplified Call to Action */}
+  const renderCallToAction = () => (
+   
+  <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 text-center border border-slate-700/50 shadow-lg hover:scale-102 transition-all duration-300"
+        whileHover={{ y: -2 }}
+      >
+        <Heart className="w-10 h-10 text-orange-400 mx-auto mb-4" />
+        <h4 className="text-xl font-bold text-white mb-3">Ready for Adventure?</h4>
+        <p className="text-gray-300 mb-4">
+          Join thousands of travelers who've experienced the magic of African safaris with us.
+        </p>
+        
+        <div className="flex items-center justify-center gap-4 text-sm text-gray-400">
+          <div className="flex items-center gap-2">
+            <Shield className="w-4 h-4" />
+            <span>Fully Insured</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Award className="w-4 h-4" />
+            <span>Award Winning</span>
+          </div>
+        </div>
+      </motion.div>
+   );
 
   const renderTrustIndicators = () => (
     <motion.div
@@ -9314,6 +9569,8 @@ const DynamicSidebarContent = ({ contentHeight, activeTab, tour }) => {
     </motion.div>
   );
 
+ 
+
   return (
     <div className="mt-6">
       <AnimatePresence>
@@ -9347,33 +9604,15 @@ const DynamicSidebarContent = ({ contentHeight, activeTab, tour }) => {
             {renderStats()}
           </div>
         )}
+         {visibleContent.includes('call-to-action') && (
+          <div key="call-to-action">
+            {renderCallToAction()}
+          </div>
+        )}
       </AnimatePresence>
       
       {/* Simplified Call to Action */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.6 }}
-        className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 text-center border border-slate-700/50 shadow-lg hover:scale-102 transition-all duration-300"
-        whileHover={{ y: -2 }}
-      >
-        <Heart className="w-10 h-10 text-orange-400 mx-auto mb-4" />
-        <h4 className="text-xl font-bold text-white mb-3">Ready for Adventure?</h4>
-        <p className="text-gray-300 mb-4">
-          Join thousands of travelers who've experienced the magic of African safaris with us.
-        </p>
-        
-        <div className="flex items-center justify-center gap-4 text-sm text-gray-400">
-          <div className="flex items-center gap-2">
-            <Shield className="w-4 h-4" />
-            <span>Fully Insured</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <Award className="w-4 h-4" />
-            <span>Award Winning</span>
-          </div>
-        </div>
-      </motion.div>
+   
     </div>
   );
 };
@@ -10428,7 +10667,7 @@ const TourDetailPage = () => {
 
       <section className="relative h-[83vh] md:h-[75vh] -mt-2 md:-mt-5">
         <img 
-          className="absolute inset-0 w-full h-full object-cover "
+          className="absolute inset-0 w-full h-full object-cover  "
           alt={`Hero image for ${tour.title} showing ${tour.image}`}
           src={getMainTourImage(tour.id)}
         />
